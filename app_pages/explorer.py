@@ -23,7 +23,7 @@ def render() -> None:
     if not paths:
         st.error("No routine CSV found next to the app.")
         return
-    frame, sections, courses = _load(paths)
+    _frame, sections, _courses = _load(paths)
 
     st.title("Course explorer")
     st.caption(

@@ -9,6 +9,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from core.appearance import APPEARANCE_OPTIONS, theme_script
 from core.data import build_from_frames, find_csv_files, load_routine_data
 from core.export import (
     grid_html,
@@ -101,7 +102,7 @@ def _sidebar() -> tuple[tuple, tuple, str]:
         if uploaded:
             payload = tuple((f.name, f.getvalue()) for f in uploaded)
             try:
-                frame, sections, courses = _load_uploaded(payload)
+                _frame, sections, courses = _load_uploaded(payload)
             except Exception as error:  # noqa: BLE001 - surfaced to the user
                 st.error(f"Could not read the uploaded sheet: {error}")
                 st.stop()
@@ -111,7 +112,7 @@ def _sidebar() -> tuple[tuple, tuple, str]:
             if not paths:
                 st.error("No routine CSV found next to the app.")
                 st.stop()
-            frame, sections, courses = _load_local(paths)
+            _frame, sections, courses = _load_local(paths)
             source = ", ".join(Path(p).name for p in paths)
 
         st.caption(f"Loaded from {source}")
@@ -121,7 +122,31 @@ def _sidebar() -> tuple[tuple, tuple, str]:
         programs = sorted({course.program for course in courses})
         c.metric("Programs", len(programs))
 
+        st.divider()
+        _appearance_control()
+
     return sections, courses, source
+
+
+def _appearance_control() -> None:
+    """Light/dark switch, wired to Streamlit's own appearance menu."""
+    choice = st.segmented_control(
+        "Appearance",
+        APPEARANCE_OPTIONS,
+        default="System",
+        key="appearance",
+        help="Applies straight away. The menu in the top right does the same.",
+    )
+    if not choice:
+        return
+    if "appearance_applied" not in st.session_state:
+        st.session_state["appearance_applied"] = choice
+        return
+    if choice != st.session_state["appearance_applied"]:
+        script = theme_script(choice)
+        if script:
+            st.html(script, unsafe_allow_javascript=True)
+        st.session_state["appearance_applied"] = choice
 
 
 # --- Rendering helpers --------------------------------------------------------
@@ -132,6 +157,23 @@ def _course_label(course, program_count: dict[str, int]) -> str:
     if program_count.get(course.course_code, 1) > 1:
         return f"{course.course_code} — {course.title} ({course.program}){tag}"
     return f"{course.course_code} — {course.title}{tag}"
+
+
+def _course_heading(course, program_count: dict[str, int]) -> str:
+    """Title-first name, used where the course code would only add noise."""
+    tag = " (lab)" if course.kind == "lab" else ""
+    if program_count.get(course.course_code, 1) > 1:
+        return f"{course.title} ({course.program}){tag}"
+    return f"{course.title}{tag}"
+
+
+def _faculty_by_course(sections) -> dict[str, list[str]]:
+    """Teachers who actually take each course, sorted and without TBA."""
+    grouped: dict[str, set[str]] = {}
+    for section in sections:
+        if section.faculty and section.faculty != "TBA":
+            grouped.setdefault(section.course_key, set()).add(section.faculty)
+    return {key: sorted(names) for key, names in grouped.items()}
 
 
 def _grid(routine) -> str:
@@ -302,19 +344,25 @@ def render() -> None:
         excluded_by_course: list[tuple[str, frozenset[str]]] = []
         preferred_by_course: list[tuple[str, frozenset[str]]] = []
         if chosen:
+            teachers = _faculty_by_course(sections)
             for course in chosen:
+                options = teachers.get(course.key, [])
+                heading = _course_heading(course, program_count)
+                if not options:
+                    st.caption(f"No named teachers are listed for {heading}.")
+                    continue
                 row_a, row_b = st.columns(2)
                 with row_a:
                     names = st.multiselect(
-                        f"Skip teachers in {course.course_code}",
-                        options=faculty_names,
+                        f"Skip teachers in {heading}",
+                        options=options,
                         key=f"skip_{course.key}",
                         placeholder="No restriction",
                     )
                 with row_b:
                     names_p = st.multiselect(
-                        f"Prefer teachers in {course.course_code}",
-                        options=faculty_names,
+                        f"Prefer teachers in {heading}",
+                        options=options,
                         key=f"pref_{course.key}",
                         placeholder="No preference",
                     )

@@ -7,6 +7,7 @@ from pathlib import Path
 
 import pytest
 
+from core.appearance import APPEARANCE_OPTIONS, theme_script
 from core.data import find_csv_files, load_routine_data
 from core.export import (
     grid_frame,
@@ -192,8 +193,7 @@ def test_export_shapes(data, catalogue):
     assert workbook[:2] == b"PK"
 
 
-def test_grid_html_escapes_injected_markup():
-    """Titles come from user-uploadable CSVs, so they must never reach the DOM raw."""
+def _hostile_routine() -> Routine:
     section = Section(
         key="k",
         program="BSCSE",
@@ -208,15 +208,38 @@ def test_grid_html_escapes_injected_markup():
         mask=0,
         intervals=((0, 510, 590),),
     )
-    routine = Routine(
+    return Routine(
         assignments=[section],
         score=0.0,
         breakdown={},
         metrics={"days_used": 1, "max_classes_in_day": 1, "gap_minutes": 0},
     )
-    html = grid_html(routine)
+
+
+def test_grid_html_escapes_injected_markup():
+    """Titles come from user-uploadable CSVs, so they must never reach the DOM raw."""
+    html = grid_html(_hostile_routine())
     assert "<script>" not in html
     assert "<img" not in html
     assert "&lt;script&gt;" in html
     assert "&lt;img src=x onerror=alert(2)&gt;" in html
     assert "A&amp;B" in html
+
+
+def test_grid_css_follows_the_active_theme():
+    """The grid must recolour itself when Streamlit switches light/dark."""
+    html = grid_html(_hostile_routine())
+    assert "@supports (color: light-dark(" in html
+    assert "light-dark(#" in html
+
+
+def test_theme_script_drives_the_appearance_menu():
+    for option in APPEARANCE_OPTIONS:
+        script = theme_script(option)
+        assert script.startswith("<script>")
+        assert script.endswith("</script>")
+        assert "stMainMenuButton" in script
+        assert f"stMainMenuItem-theme-{option}" in script
+        # st.html's sanitizer drops scripts whose text contains "<"
+        assert "<" not in script[len("<script>") : -len("</script>")]
+    assert theme_script("Noon") == ""

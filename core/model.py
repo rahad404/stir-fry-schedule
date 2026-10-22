@@ -154,8 +154,8 @@ class Routine:
         for section in self.assignments:
             for day in section.days:
                 out[day].append(section)
-        for day in out:
-            out[day].sort(key=lambda s: (s.start, s.course_code))
+        for day_sections in out.values():
+            day_sections.sort(key=lambda s: (s.start, s.course_code))
         return out
 
     def timetable_rows(self) -> list[tuple[tuple[int, int], dict[str, Section]]]:
@@ -215,20 +215,20 @@ class Feasibility:
 
 
 __all__ = [
-    "DAY_ORDER",
     "DAY_INDEX",
-    "FIRST_SLOT",
-    "LAST_SLOT",
+    "DAY_ORDER",
     "DAY_STRIDE",
+    "FIRST_SLOT",
     "LAB_MINUTES",
+    "LAST_SLOT",
     "TBA",
-    "Section",
     "Course",
+    "Feasibility",
     "FilterConfig",
     "Routine",
+    "Section",
     "SolveResult",
-    "Feasibility",
-    "parse_clock",
     "format_clock",
+    "parse_clock",
     "replace",
 ]

@@ -29,6 +29,7 @@ from __future__ import annotations
 import math
 import time
 from dataclasses import dataclass, field
+from itertools import pairwise
 
 from .model import (
     DAY_ORDER,
@@ -67,9 +68,7 @@ def _section_passes(section: Section, config: FilterConfig) -> bool:
         return False
     if section.start < config.earliest_start or section.end > config.latest_end:
         return False
-    if section.faculty in config.excluded_faculty:
-        return False
-    return True
+    return section.faculty not in config.excluded_faculty
 
 
 def build_candidates(
@@ -298,8 +297,8 @@ def score_routine(
 
     used = sorted(per_day)
     if len(used) > 1:
-        gaps = sum(1 for a, b in zip(used, used[1:]) if b - a > 1)
-        adjacency = sum(1 for a, b in zip(used, used[1:]) if b - a == 1)
+        gaps = sum(1 for a, b in pairwise(used) if b - a > 1)
+        adjacency = sum(1 for a, b in pairwise(used) if b - a == 1)
         metrics["day_gaps"] = gaps
         metrics["adjacent_days"] = adjacency
         if config.preference == "compact":
@@ -331,7 +330,7 @@ class _State:
     assignment: list[Section] = field(default_factory=list)
     lower_bound: float = 0.0
 
-    def clone(self) -> "_State":
+    def clone(self) -> _State:
         return _State(
             occ=self.occ,
             day_counts=list(self.day_counts),
@@ -455,9 +454,12 @@ class _Solver:
                     if 0 < gap < self._min_gap:
                         return False
         faculty = section.faculty
-        if faculty and faculty != TBA:
-            if section.mask & state.faculty_occ.get(faculty, 0):
-                return False
+        if (
+            faculty
+            and faculty != TBA
+            and section.mask & state.faculty_occ.get(faculty, 0)
+        ):
+            return False
         if (
             len(state.used_days | {d for d, _, _ in section.intervals})
             > self.config.max_days
@@ -475,7 +477,7 @@ class _Solver:
             return 0
         best = run = 1
         ordered = sorted(days)
-        for previous, current in zip(ordered, ordered[1:]):
+        for previous, current in pairwise(ordered):
             run = run + 1 if current - previous == 1 else 1
             best = max(best, run)
         return best
@@ -510,8 +512,7 @@ class _Solver:
             first = state.day_first_start[day_index]
             if first is None or start < first:
                 state.day_first_start[day_index] = start
-            if end > state.day_last_end[day_index]:
-                state.day_last_end[day_index] = end
+            state.day_last_end[day_index] = max(state.day_last_end[day_index], end)
             state.used_days.add(day_index)
         faculty = section.faculty
         if faculty and faculty != TBA:
@@ -802,9 +803,7 @@ def verify_routine(routine: Routine) -> list[str]:
             for d, start, end in s.intervals
             if d == day_index
         )
-        for (start_a, end_a, label_a), (start_b, end_b, label_b) in zip(
-            blocks, blocks[1:]
-        ):
+        for (start_a, end_a, label_a), (start_b, end_b, label_b) in pairwise(blocks):
             if start_b < end_a:
                 problems.append(f"{label_a} overlaps {label_b} on {day}.")
     return problems

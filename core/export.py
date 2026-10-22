@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-import io
 import html
+import io
 
 import pandas as pd
 
@@ -85,8 +85,8 @@ _PALETTE = {
         "text": "#12211C",
     },
     "dark": {
-        "border": "#3A4744",
-        "row": "#24302C",
+        "border": "#2C3A35",
+        "row": "#18211D",
         "muted": "#A7B5B0",
         "accent": "#4EC49A",
         "accent_bg": "#1D2C27",
@@ -94,6 +94,47 @@ _PALETTE = {
         "text": "#EAF2EE",
     },
 }
+
+
+def _grid_css(palette: dict[str, str]) -> str:
+    """CSS for the grid table.
+
+    The plain rules use one fixed palette so the table stays readable in
+    browsers without ``light-dark()``. The ``@supports`` block then swaps
+    every colour for a ``light-dark()`` pair, which resolves against the
+    colour scheme Streamlit puts on the page - so the grid follows the app
+    theme (light/dark) without the app having to know which one is active.
+    """
+    light = _PALETTE["light"]
+    dark = _PALETTE["dark"]
+    return f"""
+    <style>
+    .rgrid {{ width: 100%; border-collapse: collapse; font-size: 0.82rem; }}
+    .rgrid th {{ text-align: left; padding: 7px 9px; color: {palette["muted"]};
+                 border-bottom: 1px solid {palette["border"]}; font-weight: 600; }}
+    .rgrid td {{ padding: 6px 5px; border-bottom: 1px solid {palette["row"]};
+                 vertical-align: top; color: {palette["text"]}; }}
+    .rgrid td.t {{ white-space: nowrap; color: {palette["muted"]};
+                   font-variant-numeric: tabular-nums; padding-left: 0; }}
+    .rgrid .c {{ border-left: 3px solid {palette["accent"]};
+                 background: {palette["accent_bg"]}; border-radius: 5px;
+                 padding: 5px 8px; }}
+    .rgrid .code {{ font-weight: 700; color: {palette["accent_text"]}; }}
+    .rgrid .ttl {{ display: block; }}
+    .rgrid .fac {{ display: block; color: {palette["muted"]}; font-size: 0.92em; }}
+    @supports (color: light-dark(#ffffff, #000000)) {{
+      .rgrid th {{ color: light-dark({light["muted"]}, {dark["muted"]});
+                   border-bottom-color: light-dark({light["border"]}, {dark["border"]}); }}
+      .rgrid td {{ color: light-dark({light["text"]}, {dark["text"]});
+                   border-bottom-color: light-dark({light["row"]}, {dark["row"]}); }}
+      .rgrid td.t {{ color: light-dark({light["muted"]}, {dark["muted"]}); }}
+      .rgrid .c {{ border-left-color: light-dark({light["accent"]}, {dark["accent"]});
+                   background: light-dark({light["accent_bg"]}, {dark["accent_bg"]}); }}
+      .rgrid .code {{ color: light-dark({light["accent_text"]}, {dark["accent_text"]}); }}
+      .rgrid .fac {{ color: light-dark({light["muted"]}, {dark["muted"]}); }}
+    }}
+    </style>
+    """
 
 
 def grid_html(routine: Routine, dark: bool = False) -> str:
@@ -122,23 +163,7 @@ def grid_html(routine: Routine, dark: bool = False) -> str:
             + "".join(cells_html)
             + "</tr>"
         )
-    style = f"""
-    <style>
-    .rgrid {{ width: 100%; border-collapse: collapse; font-size: 0.82rem; }}
-    .rgrid th {{ text-align: left; padding: 7px 9px; color: {palette["muted"]};
-                 border-bottom: 1px solid {palette["border"]}; font-weight: 600; }}
-    .rgrid td {{ padding: 6px 5px; border-bottom: 1px solid {palette["row"]};
-                 vertical-align: top; color: {palette["text"]}; }}
-    .rgrid td.t {{ white-space: nowrap; color: {palette["muted"]};
-                   font-variant-numeric: tabular-nums; padding-left: 0; }}
-    .rgrid .c {{ border-left: 3px solid {palette["accent"]};
-                 background: {palette["accent_bg"]}; border-radius: 5px;
-                 padding: 5px 8px; }}
-    .rgrid .code {{ font-weight: 700; color: {palette["accent_text"]}; }}
-    .rgrid .ttl {{ display: block; }}
-    .rgrid .fac {{ display: block; color: {palette["muted"]}; font-size: 0.92em; }}
-    </style>
-    """
+    style = _grid_css(palette)
     return (
         f"{style}<table class='rgrid'><thead><tr><th>Time</th>{head}</tr></thead>"
         f"<tbody>{''.join(rows)}</tbody></table>"

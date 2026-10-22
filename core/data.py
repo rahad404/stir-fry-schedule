@@ -174,7 +174,7 @@ def course_catalog(df: pd.DataFrame) -> list[Course]:
                 title=str(title),
                 kind=str(kind),
                 sessions=sessions,
-                section_count=int(len(group)),
+                section_count=len(group),
             )
         )
     courses.sort(key=lambda c: (c.program, c.course_code))

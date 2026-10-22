@@ -1,13 +1,37 @@
+# Appearance
+# Defining [theme.light] and [theme.dark] turns on Streamlit's built-in
+# Light/Dark switch (top-right menu -> Appearance). The active choice is
+# remembered by the browser and the app follows it automatically.
+
 [theme]
-base = "light"
+font = "sans serif"
+showWidgetBorder = true
+
+[theme.light]
 primaryColor = "#0B6E4F"
 backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F2F6F4"
 textColor = "#12211C"
-font = "sans serif"
+borderColor = "#D8E2DD"
 
-[theme.sidebar]
+[theme.light.sidebar]
 backgroundColor = "#F2F6F4"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#12211C"
+borderColor = "#D8E2DD"
+
+[theme.dark]
+primaryColor = "#4EC49A"
+backgroundColor = "#0E1512"
+secondaryBackgroundColor = "#18211D"
+textColor = "#EAF2EE"
+borderColor = "#2C3A35"
+
+[theme.dark.sidebar]
+backgroundColor = "#141B18"
+secondaryBackgroundColor = "#1E2723"
+textColor = "#EAF2EE"
+borderColor = "#2C3A35"
 
 [server]
 headless = true

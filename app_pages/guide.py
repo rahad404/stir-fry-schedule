@@ -93,7 +93,8 @@ def render() -> None:
 
 5. **Teacher filters shrink the pool.** A preferred teacher is only a
    tie-breaker; an excluded teacher removes a section for good. Use exclusions
-   for teachers you truly cannot attend.
+   for teachers you truly cannot attend. The per-course lists only show the
+   teachers who actually take that course, so nothing irrelevant is offered.
 
 6. **Raise the search effort if you need a proven optimum.** The builder tells
    you when the search finished every possibility, and when it simply ran out
@@ -112,6 +113,15 @@ def render() -> None:
   and campus-day limits are hard constraints, not suggestions.
 - **Honest about certainty.** When the builder says a routine is optimal it
   has checked every remaining combination; otherwise it says so.
+"""
+    )
+
+    st.subheader("Appearance")
+    st.markdown(
+        """
+Use **Appearance** at the bottom of the sidebar — or **☰ → Appearance** in the
+top-right menu — to switch between **System**, **Light** and **Dark**. The app
+remembers your choice in the browser, and the results grid follows it.
 """
     )
 

@@ -86,7 +86,8 @@ returned.
   which of Sat/Sun/Mon/Tue/Wed you can attend.
 * **How much you can handle** — max classes in a day, max and min campus days,
   max hours on campus per day, minimum break between classes.
-* **Teachers** — exclude or prefer teachers globally, or per course.
+* **Teachers** — exclude or prefer teachers globally, or per course. The
+  per-course lists only contain the teachers who actually take that course.
 * **Goal** — balanced, mornings, afternoons, compact week, or spread out.
 * **Search effort** — quick (1.5 s), standard (4 s) or thorough (12 s). More
   effort means more of the search space is explored, so more requests can be
@@ -108,6 +109,20 @@ week, but 4 days × 4 classes only fits 16").
 Downloads are available for a single routine (CSV), a single routine (Excel)
 and for every option at once (CSV / Excel, one sheet per routine).
 
+## Light and dark appearance
+
+`[theme.light]` and `[theme.dark]` in `.streamlit/config.toml` define a matched
+light/dark palette and turn on Streamlit's built-in appearance switch. You can
+change the theme from either place:
+
+* **Sidebar → Appearance** — System / Light / Dark, applied immediately.
+* **☰ menu → Appearance** — the same three choices.
+
+Streamlit remembers the choice in the browser, and everything follows it,
+including the weekly grid on the results page (its CSS uses `light-dark()`).
+The sidebar switch drives Streamlit's own menu, because Streamlit exposes no
+Python API for the active theme.
+
 ## Project layout
 
 ```
@@ -121,6 +136,7 @@ core/
   data.py              CSV merge, cleaning, bitmask time grid
   solver.py            Candidate build, feasibility, scoring, search
   export.py            HTML grid, CSV and Excel writers
+  appearance.py        Sidebar light/dark switch script
 tests/
   test_core.py         Solver, filter and export checks
   test_app.py          Page-level checks via Streamlit's AppTest

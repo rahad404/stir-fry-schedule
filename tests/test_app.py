@@ -52,9 +52,7 @@ def test_builder_solves_after_picking_courses():
     wanted = [
         option
         for option in picker.options
-        if option.startswith("CSE 2213")
-        or option.startswith("ENG 1011")
-        or option.startswith("MATH 1151")
+        if option.startswith(("CSE 2213", "ENG 1011", "MATH 1151"))
     ]
     assert len(wanted) == 3
     picker.set_value(wanted)
@@ -78,12 +76,34 @@ def test_builder_reports_impossible_requests():
     _fail(at)
 
     # Two campus days cannot hold a course that meets twice a week.
-    at.slider(key=None) if False else None
     sliders = [s for s in at.slider if s.label == "Max campus days"]
     sliders[0].set_value(1)
     at.run()
     _fail(at)
     assert at.error
+
+
+def test_teacher_lists_are_scoped_to_each_course():
+    at = _app("app.py")
+    picker = at.multiselect[0]
+    wanted = [o for o in picker.options if o.startswith("CSE 1111 —")]
+    picker.set_value(wanted)
+    at.run()
+    _fail(at)
+
+    scoped = [
+        widget
+        for widget in at.multiselect
+        if widget.label.startswith(("Skip teachers in", "Prefer teachers in"))
+    ]
+    assert len(scoped) == 2
+    assert all("Structured Programming Language" in w.label for w in scoped)
+    assert all("CSE 1111" not in w.label for w in scoped)
+
+    every_teacher = at.multiselect[1].options
+    for widget in scoped:
+        assert widget.options
+        assert set(widget.options) < set(every_teacher)
 
 
 def test_explorer_page_renders():
