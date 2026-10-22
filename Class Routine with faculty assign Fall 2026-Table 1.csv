@@ -1,0 +1,536 @@
+Sl,Program,Course Code,Title,Section,Day1,Day2,Time1,Faculty Name
+1,BSCSE,ACT 2111,Financial and Managerial Accounting,A,Sat,Tue,08:30:AM - 09:50:AM,Ishrat Jahan
+2,BSCSE,ACT 2111,Financial and Managerial Accounting,B,Sat,Tue,09:51:AM - 11:10:AM,Shakila Aziz
+3,BSCSE,ACT 2111,Financial and Managerial Accounting,C,Sat,Tue,11:11:AM - 12:30:PM,Ishrat Jahan
+4,BSCSE,ACT 2111,Financial and Managerial Accounting,D,Sat,Tue,03:11:PM - 04:30:PM,Israt Jabin
+5,BSCSE,ACT 2111,Financial and Managerial Accounting,E,Sun,Wed,11:11:AM - 12:30:PM,Ishrat Jahan
+6,BSCSE,ACT 2111,Financial and Managerial Accounting,F,Sun,Wed,12:31:PM - 01:50:PM,Sadia Binte Anwar
+7,BSCSE,ACT 2111,Financial and Managerial Accounting,G,Sun,Wed,01:51:PM - 03:10:PM,Ishrat Jahan
+8,BSCSE,ACT 2111,Financial and Managerial Accounting,H,Sun,Wed,03:11:PM - 04:30:PM,Ishrat Jahan
+9,BSCSE,ACT 2111,Financial and Managerial Accounting,I,Sat,Tue,12:31:PM - 01:50:PM,Shakila Aziz
+10,BSCSE,ACT 2111,Financial and Managerial Accounting,J,Sun,Wed,09:51:AM - 11:10:AM,Israt Jabin
+11,BSCSE,ACT 2111,Financial and Managerial Accounting,K,Sun,Wed,08:30:AM - 09:50:AM,Israt Jabin
+12,BSCSE,BDS 1201,History of the Emergence of Bangladesh,AA,Sat,Tue,08:30:AM - 09:50:AM,Mosharof Hossain
+13,BSCSE,BDS 1201,History of the Emergence of Bangladesh,AB,Sat,Tue,09:51:AM - 11:10:AM,Mosharof Hossain
+14,BSCSE,BDS 1201,History of the Emergence of Bangladesh,AC,Sat,Tue,12:31:PM - 01:50:PM,Mallika Datta
+15,BSCSE,BDS 1201,History of the Emergence of Bangladesh,AD,Sun,Wed,11:11:AM - 12:30:PM,Taniah Mahmuda Tinni
+16,BSCSE,BDS 1201,History of the Emergence of Bangladesh,AE (If Requir,Sun,Wed,01:51:PM - 03:10:PM,Nabila Sultana
+17,BSCSE,BIO 3105,Biology for Engineers,A,Sat,Tue,08:30:AM - 09:50:AM,Erina Sharmin
+18,BSCSE,BIO 3105,Biology for Engineers,B,Sat,Tue,09:51:AM - 11:10:AM,Erina Sharmin
+19,BSCSE,BIO 3105,Biology for Engineers,C,Sat,Tue,11:11:AM - 12:30:PM,Sakibul Satter Shupto
+20,BSCSE,BIO 3105,Biology for Engineers,D,Sat,Tue,12:31:PM - 01:50:PM,Md. Sanzed Alam
+21,BSCSE,BIO 3105,Biology for Engineers,E,Sat,Tue,01:51:PM - 03:10:PM,Fariha Yousuf Monia
+22,BSCSE,BIO 3105,Biology for Engineers,F,Sat,Tue,03:11:PM - 04:30:PM,Md. Sanzed Alam
+23,BSCSE,BIO 3105,Biology for Engineers,M,Sun,Wed,03:11:PM - 04:30:PM,S.M. Rafiqul Islam
+24,BSCSE,BIO 3105,Biology for Engineers,N,Sun,Wed,03:11:PM - 04:30:PM,Md. Zahin Alam
+25,BSCSE,BIO 3105,Biology for Engineers,G,Sat,Tue,03:11:PM - 04:30:PM,Fariha Yousuf Monia
+26,BSCSE,BIO 3105,Biology for Engineers,H,Sun,Wed,08:30:AM - 09:50:AM,M.M. Rafin Mahmud
+27,BSCSE,BIO 3105,Biology for Engineers,I,Sun,Wed,09:51:AM - 11:10:AM,Md. Sanzed Alam
+28,BSCSE,BIO 3105,Biology for Engineers,J,Sun,Wed,11:11:AM - 12:30:PM,M.M. Rafin Mahmud
+29,BSCSE,BIO 3105,Biology for Engineers,K,Sun,Wed,12:31:PM - 01:50:PM,Mobashara Islam
+30,BSCSE,BIO 3105,Biology for Engineers,L,Sun,Wed,01:51:PM - 03:10:PM,Sakibul Satter Shupto
+31,BSCSE,CSE 1110,Introduction to Computer Systems,A,Sun,,11:11:AM - 01:40:PM,Azizur Rahman Anik
+32,BSCSE,CSE 1110,Introduction to Computer Systems,B,Sun,,02:00:PM - 04:30:PM,Md. Tanvir Raihan
+33,BSCSE,CSE 1110,Introduction to Computer Systems,C,Mon,,02:00:PM - 04:30:PM,Sayeem Been Zaman
+34,BSCSE,CSE 1110,Introduction to Computer Systems,D,Sun,,08:30:AM - 11:00:AM,Asif Ahmed Utsa
+35,BSCSE,CSE 1110,Introduction to Computer Systems,E,Sun,,08:30:AM - 11:00:AM,Mobaswirul Islam
+36,BSCSE,CSE 1110,Introduction to Computer Systems,F,Wed,,11:11:AM - 01:40:PM,Md. Tanvir Raihan
+37,BSCSE,CSE 1110,Introduction to Computer Systems,S,Sat,,08:30:AM - 11:00:AM,Sheikh Mohammed Al Ha
+38,BSCSE,CSE 1110,Introduction to Computer Systems,T,Sun,,08:30:AM - 11:00:AM,Fairoz Anika
+39,BSCSE,CSE 1110,Introduction to Computer Systems,M,Sat,,08:30:AM - 11:00:AM,Md. Muhaiminul Islam Na
+40,BSCSE,CSE 1110,Introduction to Computer Systems,N,Sat,,08:30:AM - 11:00:AM,Ms. Sumaiya Ahmed Rani
+41,BSCSE,CSE 1110,Introduction to Computer Systems,O,Tue,,11:11:AM - 01:40:PM,Md. Sajjad Hossain
+42,BSCSE,CSE 1110,Introduction to Computer Systems,P,Mon,,02:00:PM - 04:30:PM,Amit Bin Tariqul
+43,BSCSE,CSE 1110,Introduction to Computer Systems,Q,Tue,,02:00:PM - 04:30:PM,Minhajul Bashir
+44,BSCSE,CSE 1110,Introduction to Computer Systems,R,Tue,,08:30:AM - 11:00:AM,Umama Rahman
+45,BSCSE,CSE 1110,Introduction to Computer Systems,G,Wed,,08:30:AM - 11:00:AM,Asif Ahmed Utsa
+46,BSCSE,CSE 1110,Introduction to Computer Systems,H,Wed,,08:30:AM - 11:00:AM,Nusaiba Zaman Manifa
+47,BSCSE,CSE 1110,Introduction to Computer Systems,I,Wed,,11:11:AM - 01:40:PM,Azizur Rahman Anik
+48,BSCSE,CSE 1110,Introduction to Computer Systems,J,Sat,,11:11:AM - 01:40:PM,Minhajul Bashir
+49,BSCSE,CSE 1110,Introduction to Computer Systems,K,Tue,,02:00:PM - 04:30:PM,Amit Bin Tariqul
+50,BSCSE,CSE 1110,Introduction to Computer Systems,L,Tue,,02:00:PM - 04:30:PM,Nusaiba Zaman Manifa
+51,BSCSE,CSE 1111,Structured Programming Language,A,Sat,Tue,08:30:AM - 09:50:AM,Mohammad Nurul Huda
+52,BSCSE,CSE 1111,Structured Programming Language,B,Sat,Tue,09:51:AM - 11:10:AM,Anika Tasnim Rodela
+53,BSCSE,CSE 1111,Structured Programming Language,C,Sat,Tue,11:11:AM - 12:30:PM,Shoib Ahmed Shourav
+54,BSCSE,CSE 1111,Structured Programming Language,D,Sat,Tue,12:31:PM - 01:50:PM,Shoib Ahmed Shourav
+55,BSCSE,CSE 1111,Structured Programming Language,E,Sat,Tue,01:51:PM - 03:10:PM,Hasan Sarwar
+56,BSCSE,CSE 1111,Structured Programming Language,F (if require,Sat,Tue,03:11:PM - 04:30:PM,TBA
+57,BSCSE,CSE 1111,Structured Programming Language,S,Sun,Wed,12:31:PM - 01:50:PM,Anika Tasnim Rodela
+58,BSCSE,CSE 1111,Structured Programming Language,T,Sun,Wed,01:51:PM - 03:10:PM,Samin Sharaf Somik
+59,BSCSE,CSE 1111,Structured Programming Language,U,Sun,Wed,03:11:PM - 04:30:PM,Md. Shafqat Talukder
+60,BSCSE,CSE 1111,Structured Programming Language,M,Sun,Wed,11:11:AM - 12:30:PM,Sheikh Mohammed Al Ha
+61,BSCSE,CSE 1111,Structured Programming Language,N,Sun,Wed,12:31:PM - 01:50:PM,Md. Saiful Azad
+62,BSCSE,CSE 1111,Structured Programming Language,O,Sun,Wed,01:51:PM - 03:10:PM,Sheikh Mohammed Al Ha
+63,BSCSE,CSE 1111,Structured Programming Language,P,Sun,Wed,03:11:PM - 04:30:PM,S.M. Kausar Parvej
+64,BSCSE,CSE 1111,Structured Programming Language,Q,Sun,Wed,11:11:AM - 12:30:PM,Sajid Ahmed Chowdhury
+65,BSCSE,CSE 1111,Structured Programming Language,R,Sun,Wed,11:11:AM - 12:30:PM,Nabila Sabrin Sworna
+66,BSCSE,CSE 1111,Structured Programming Language,G,Sat,Tue,11:11:AM - 12:30:PM,Sherajul Arifin
+67,BSCSE,CSE 1111,Structured Programming Language,H,Sat,Tue,12:31:PM - 01:50:PM,Samin Sharaf Somik
+68,BSCSE,CSE 1111,Structured Programming Language,I,Sat,Tue,11:11:AM - 12:30:PM,Nabila Sabrin Sworna
+69,BSCSE,CSE 1111,Structured Programming Language,J,Sat,Tue,01:51:PM - 03:10:PM,S.M. Kausar Parvej
+70,BSCSE,CSE 1111,Structured Programming Language,K,Sun,Wed,08:30:AM - 09:50:AM,Mohammad Nurul Huda
+71,BSCSE,CSE 1111,Structured Programming Language,L,Sun,Wed,09:51:AM - 11:10:AM,Md. Saiful Azad
+72,BSCSE,CSE 1112,Structured Programming Language Labora,A,Sat,,08:30:AM - 11:00:AM,Md. Taky Shaharair
+73,BSCSE,CSE 1112,Structured Programming Language Labora,B,Sat,,11:11:AM - 01:40:PM,Abdullah Ibne Masud Ma
+74,BSCSE,CSE 1112,Structured Programming Language Labora,C,Sat,,02:00:PM - 04:30:PM,Ashraful Islam Paran
+75,BSCSE,CSE 1112,Structured Programming Language Labora,E,Mon,,11:11:AM - 01:40:PM,Mohmmad Ali
+76,BSCSE,CSE 1112,Structured Programming Language Labora,F,Mon,,08:30:AM - 11:00:AM,Hamudi Hasan Sonet
+77,BSCSE,CSE 1112,Structured Programming Language Labora,H,Sun,,11:11:AM - 01:40:PM,Tasriad Ahmed Tias
+78,BSCSE,CSE 1112,Structured Programming Language Labora,T,Wed,,11:11:AM - 01:40:PM,Sidratul Tanzila Tasmi
+79,BSCSE,CSE 1112,Structured Programming Language Labora,U,Wed,,02:00:PM - 04:30:PM,Sayeem Been Zaman
+80,BSCSE,CSE 1112,Structured Programming Language Labora,V,Wed,,08:30:AM - 11:00:AM,Asnuva Tanvin
+81,BSCSE,CSE 1112,Structured Programming Language Labora,X,Wed,,02:00:PM - 04:30:PM,Miftahul Sheikh
+82,BSCSE,CSE 1112,Structured Programming Language Labora,S,Wed,,08:30:AM - 11:00:AM,Mobaswirul Islam
+83,BSCSE,CSE 1112,Structured Programming Language Labora,N,Tue,,11:11:AM - 01:40:PM,S.M. Kausar Parvej
+84,BSCSE,CSE 1112,Structured Programming Language Labora,O,Tue,,02:00:PM - 04:30:PM,Hamudi Hasan Sonet
+85,BSCSE,CSE 1112,Structured Programming Language Labora,P,Mon,,08:30:AM - 11:00:AM,Miftahul Sheikh
+86,BSCSE,CSE 1112,Structured Programming Language Labora,Q,Tue,,11:11:AM - 01:40:PM,Sheikh Mohammed Al Ha
+87,BSCSE,CSE 1112,Structured Programming Language Labora,R,Mon,,02:00:PM - 04:30:PM,Mohmmad Ali
+88,BSCSE,CSE 1112,Structured Programming Language Labora,W,Wed,,11:11:AM - 01:40:PM,Sayeem Been Zaman
+89,BSCSE,CSE 1112,Structured Programming Language Labora,I,Sun,,02:00:PM - 04:30:PM,Tasmia Binte Sogir
+90,BSCSE,CSE 1112,Structured Programming Language Labora,J,Sun,,08:30:AM - 11:00:AM,Saqif Kaisar
+91,BSCSE,CSE 1112,Structured Programming Language Labora,K,Sun,,11:11:AM - 01:40:PM,Sidratul Tanzila Tasmi
+92,BSCSE,CSE 1112,Structured Programming Language Labora,G,Sun,,08:30:AM - 11:00:AM,Asnuva Tanvin
+93,BSCSE,CSE 1112,Structured Programming Language Labora,L,Mon,,11:11:AM - 01:40:PM,Miftahul Sheikh
+94,BSCSE,CSE 1112,Structured Programming Language Labora,M,Tue,,08:30:AM - 11:00:AM,Sajid Ahmed Chowdhury
+95,BSCSE,CSE 1115,Object Oriented Programming,A,Sat,Tue,08:30:AM - 09:50:AM,Nusrat Jahan Tithi
+96,BSCSE,CSE 1115,Object Oriented Programming,B,Sat,Tue,09:51:AM - 11:10:AM,Nusrat Jahan Tithi
+97,BSCSE,CSE 1115,Object Oriented Programming,C,Sat,Tue,11:11:AM - 12:30:PM,Mr. Sheikh Tanvir Ahmed
+98,BSCSE,CSE 1115,Object Oriented Programming,D,Sat,Tue,12:31:PM - 01:50:PM,Ashraful Islam Paran
+99,BSCSE,CSE 1115,Object Oriented Programming,E,Sun,Wed,09:51:AM - 11:10:AM,Mr. Sheikh Tanvir Ahmed
+100,BSCSE,CSE 1115,Object Oriented Programming,F,Sun,Wed,11:11:AM - 12:30:PM,Ashraful Islam Paran
+101,BSCSE,CSE 1115,Object Oriented Programming,G,Sun,Wed,08:30:AM - 09:50:AM,Nusrat Jahan Tithi
+102,BSCSE,CSE 1115,Object Oriented Programming,H,Sun,Wed,01:51:PM - 03:10:PM,Ashraful Islam Paran
+103,BSCSE,CSE 1116,Object Oriented Programming Laboratory,A,Mon,,11:11:AM - 01:40:PM,Jerin Hasan Priya
+104,BSCSE,CSE 1116,Object Oriented Programming Laboratory,B,Sat,,11:11:AM - 01:40:PM,Abrar Mahmud
+105,BSCSE,CSE 1116,Object Oriented Programming Laboratory,C,Sun,,11:11:AM - 01:40:PM,Miftahul Sheikh
+106,BSCSE,CSE 1116,Object Oriented Programming Laboratory,D,Sun,,02:00:PM - 04:30:PM,Mr. Sheikh Tanvir Ahmed
+107,BSCSE,CSE 1116,Object Oriented Programming Laboratory,E,Tue,,08:30:AM - 11:00:AM,Md. Zunaid-Ul-Alam
+108,BSCSE,CSE 1116,Object Oriented Programming Laboratory,F,Tue,,02:00:PM - 04:30:PM,Abrar Mahmud
+109,BSCSE,CSE 1116,Object Oriented Programming Laboratory,G,Wed,,11:11:AM - 01:40:PM,Miftahul Sheikh
+110,BSCSE,CSE 1116,Object Oriented Programming Laboratory,H,Wed,,02:00:PM - 04:30:PM,Mr. Sheikh Tanvir Ahmed
+111,BSCSE,CSE 1325,Digital Logic Design,A,Sat,Tue,08:30:AM - 09:50:AM,Mr. Kazi Abid Hasan
+112,BSCSE,CSE 1325,Digital Logic Design,B,Sat,Tue,09:51:AM - 11:10:AM,Md. Benzir Ahmed
+113,BSCSE,CSE 1325,Digital Logic Design,C,Sat,Tue,11:11:AM - 12:30:PM,Md. Iqbal Bahar Chowdhu
+114,BSCSE,CSE 1325,Digital Logic Design,D,Sat,Tue,12:31:PM - 01:50:PM,Imran Hossain
+115,BSCSE,CSE 1325,Digital Logic Design,E,Sun,Wed,08:30:AM - 09:50:AM,Mr. Angkon Deb
+116,BSCSE,CSE 1325,Digital Logic Design,F,Sun,Wed,09:51:AM - 11:10:AM,Nusrat Jahan Tithi
+117,BSCSE,CSE 1325,Digital Logic Design,G,Sun,Wed,11:11:AM - 12:30:PM,Riasat Azim
+118,BSCSE,CSE 1326,Digital Logic Design Laboratory,A,Wed,,11:11:AM - 01:40:PM,Saqif Kaisar
+119,BSCSE,CSE 1326,Digital Logic Design Laboratory,B,Sat,,11:11:AM - 01:40:PM,Md. Nure-Alam-Dipu
+120,BSCSE,CSE 1326,Digital Logic Design Laboratory,C,Sun,,11:11:AM - 01:40:PM,Mr. Angkon Deb
+121,BSCSE,CSE 1326,Digital Logic Design Laboratory,D,Sat,,08:30:AM - 11:00:AM,S.M. Kausar Parvej
+122,BSCSE,CSE 1326,Digital Logic Design Laboratory,E,Tue,,02:00:PM - 04:30:PM,Mr. Kazi Abid Hasan
+123,BSCSE,CSE 1326,Digital Logic Design Laboratory,F,Sun,,02:00:PM - 04:30:PM,Shahriar Mahmud
+124,BSCSE,CSE 1326,Digital Logic Design Laboratory,G,Wed,,02:00:PM - 04:30:PM,Shahriar Mahmud
+125,BSCSE,CSE 2118,Advanced Object Oriented Programming L,F,Sat,,02:00:PM - 04:30:PM,K M Faizullah Fuhad
+126,BSCSE,CSE 2118,Advanced Object Oriented Programming L,A,Sat,,08:30:AM - 11:00:AM,Mofiz Mojib Haider
+127,BSCSE,CSE 2118,Advanced Object Oriented Programming L,B,Sat,,11:11:AM - 01:40:PM,Mofiz Mojib Haider
+128,BSCSE,CSE 2118,Advanced Object Oriented Programming L,C,Sat,,02:00:PM - 04:30:PM,Kazi Abdun Noor
+129,BSCSE,CSE 2118,Advanced Object Oriented Programming L,D,Mon,,11:11:AM - 01:40:PM,Shahil Yasar Haque
+130,BSCSE,CSE 2118,Advanced Object Oriented Programming L,E,Mon,,11:11:AM - 01:40:PM,Diniya Tahrin Bhuiyan
+131,BSCSE,CSE 2118,Advanced Object Oriented Programming L,G,Tue,,08:30:AM - 11:00:AM,Mahmudul Hasan
+132,BSCSE,CSE 2118,Advanced Object Oriented Programming L,H,Sun,,11:11:AM - 01:40:PM,Fazlul Hoque
+133,BSCSE,CSE 2118,Advanced Object Oriented Programming L,I,Tue,,02:00:PM - 04:30:PM,Mahmudul Hasan
+134,BSCSE,CSE 2118,Advanced Object Oriented Programming L,J,Wed,,02:00:PM - 04:30:PM,Diniya Tahrin Bhuiyan
+135,BSCSE,CSE 2118,Advanced Object Oriented Programming L,K,Mon,,08:30:AM - 11:00:AM,Shahil Yasar Haque
+136,BSCSE,CSE 2118,Advanced Object Oriented Programming L,L,Mon,,02:00:PM - 04:30:PM,Diniya Tahrin Bhuiyan
+137,BSCSE,CSE 2213,Discrete Mathematics,A,Sat,Tue,08:30:AM - 09:50:AM,Kazi Fahim Tahmid
+138,BSCSE,CSE 2213,Discrete Mathematics,B,Sat,Tue,09:51:AM - 11:10:AM,Md. Shadman Aadeeb
+139,BSCSE,CSE 2213,Discrete Mathematics,C,Sat,Tue,11:11:AM - 12:30:PM,Rakibul Hasan Rafi
+140,BSCSE,CSE 2213,Discrete Mathematics,D,Sat,Tue,12:31:PM - 01:50:PM,Mr. Masnoon Muztahid
+141,BSCSE,CSE 2213,Discrete Mathematics,E,Sat,Tue,01:51:PM - 03:10:PM,Asnuva Tanvin
+142,BSCSE,CSE 2213,Discrete Mathematics,F,Sat,Tue,08:30:AM - 09:50:AM,Saqif Kaisar
+143,BSCSE,CSE 2213,Discrete Mathematics,AK (if requir,Sun,Wed,03:11:PM - 04:30:PM,TBA
+144,BSCSE,CSE 2213,Discrete Mathematics,AL,Sun,Wed,08:30:AM - 09:50:AM,Charles Aunkan Gomes
+145,BSCSE,CSE 2213,Discrete Mathematics,AE (if requir,Sun,Wed,11:11:AM - 12:30:PM,TBA
+146,BSCSE,CSE 2213,Discrete Mathematics,AF,Sun,Wed,12:31:PM - 01:50:PM,Didarul Islam Didar
+147,BSCSE,CSE 2213,Discrete Mathematics,AG,Sun,Wed,01:51:PM - 03:10:PM,Sherajul Arifin
+148,BSCSE,CSE 2213,Discrete Mathematics,AH (if requir,Sun,Wed,03:11:PM - 04:30:PM,TBA
+149,BSCSE,CSE 2213,Discrete Mathematics,AI,Sun,Wed,12:31:PM - 01:50:PM,Md. Mehedi Hasan
+150,BSCSE,CSE 2213,Discrete Mathematics,AJ,Sun,Wed,01:51:PM - 03:10:PM,Rakibul Hasan Rafi
+151,BSCSE,CSE 2213,Discrete Mathematics,Y,Sat,Tue,03:11:PM - 04:30:PM,Charles Aunkan Gomes
+152,BSCSE,CSE 2213,Discrete Mathematics,Z (if require,Sat,Tue,08:30:AM - 09:50:AM,TBA
+153,BSCSE,CSE 2213,Discrete Mathematics,AA,Sat,Tue,11:11:AM - 12:30:PM,Asnuva Tanvin
+154,BSCSE,CSE 2213,Discrete Mathematics,AB,Sat,Tue,12:31:PM - 01:50:PM,Sayem Shahad
+155,BSCSE,CSE 2213,Discrete Mathematics,AC,Sun,Wed,08:30:AM - 09:50:AM,Sherajul Arifin
+156,BSCSE,CSE 2213,Discrete Mathematics,AD,Sun,Wed,09:51:AM - 11:10:AM,Didarul Islam Didar
+157,BSCSE,CSE 2213,Discrete Mathematics,S,Sun,Wed,12:31:PM - 01:50:PM,Syed Samin Sadaf
+158,BSCSE,CSE 2213,Discrete Mathematics,T,Sat,Tue,08:30:AM - 09:50:AM,Nahin F. Siddiqui
+159,BSCSE,CSE 2213,Discrete Mathematics,U,Sat,Tue,09:51:AM - 11:10:AM,Nusaiba Zaman Manifa
+160,BSCSE,CSE 2213,Discrete Mathematics,V,Sat,Tue,11:11:AM - 12:30:PM,Md. Muhaiminul Islam Na
+161,BSCSE,CSE 2213,Discrete Mathematics,W,Sat,Tue,12:31:PM - 01:50:PM,Md. Shadman Aadeeb
+162,BSCSE,CSE 2213,Discrete Mathematics,X,Sat,Tue,01:51:PM - 03:10:PM,Abdullah Ibne Masud Ma
+163,BSCSE,CSE 2213,Discrete Mathematics,M,Sun,Wed,12:31:PM - 01:50:PM,Mr. Masnoon Muztahid
+164,BSCSE,CSE 2213,Discrete Mathematics,N,Sun,Wed,01:51:PM - 03:10:PM,S.M. Kausar Parvej
+165,BSCSE,CSE 2213,Discrete Mathematics,O,Sun,Wed,03:11:PM - 04:30:PM,Sidratul Tanzila Tasmi
+166,BSCSE,CSE 2213,Discrete Mathematics,P,Sun,Wed,08:30:AM - 09:50:AM,Md. Shadman Aadeeb
+167,BSCSE,CSE 2213,Discrete Mathematics,Q,Sun,Wed,09:51:AM - 11:10:AM,Asif Abrar
+168,BSCSE,CSE 2213,Discrete Mathematics,R,Sun,Wed,11:11:AM - 12:30:PM,Md. Shadman Aadeeb
+169,BSCSE,CSE 2213,Discrete Mathematics,G,Sat,Tue,09:51:AM - 11:10:AM,Humaira Anzum Neha
+170,BSCSE,CSE 2213,Discrete Mathematics,H,Sat,Tue,11:11:AM - 12:30:PM,Nusaiba Zaman Manifa
+171,BSCSE,CSE 2213,Discrete Mathematics,I,Sat,Tue,12:31:PM - 01:50:PM,TBA
+172,BSCSE,CSE 2213,Discrete Mathematics,J,Sun,Wed,08:30:AM - 09:50:AM,Mr. Masnoon Muztahid
+173,BSCSE,CSE 2213,Discrete Mathematics,K,Sun,Wed,09:51:AM - 11:10:AM,Sidratul Tanzila Tasmi
+174,BSCSE,CSE 2213,Discrete Mathematics,L,Sun,Wed,11:11:AM - 12:30:PM,Md. Mehedi Hasan
+175,BSCSE,CSE 2215,Data Structure and Algorithms I,A,Sat,Tue,08:30:AM - 09:50:AM,Anika Tasnim Rodela
+176,BSCSE,CSE 2215,Data Structure and Algorithms I,B,Sat,Tue,09:51:AM - 11:10:AM,Md. Saiful Azad
+177,BSCSE,CSE 2215,Data Structure and Algorithms I,C,Sat,Tue,11:11:AM - 12:30:PM,Mohammad Nurul Huda
+178,BSCSE,CSE 2215,Data Structure and Algorithms I,D,Sat,Tue,12:31:PM - 01:50:PM,Md. Saiful Azad
+179,BSCSE,CSE 2215,Data Structure and Algorithms I,E,Sat,Tue,01:51:PM - 03:10:PM,Mr. Mabsur Fatin Bin Hossain
+180,BSCSE,CSE 2215,Data Structure and Algorithms I,F,Sun,Wed,08:30:AM - 09:50:AM,Rubaiya Rahtin Khan
+181,BSCSE,CSE 2215,Data Structure and Algorithms I,G,Sun,Wed,09:51:AM - 11:10:AM,Anika Tasnim Rodela
+182,BSCSE,CSE 2215,Data Structure and Algorithms I,H,Sun,Wed,11:11:AM - 12:30:PM,Rubaiya Rahtin Khan
+183,BSCSE,CSE 2215,Data Structure and Algorithms I,I,Sun,Wed,12:31:PM - 01:50:PM,Md. Zunaid-Ul-Alam
+184,BSCSE,CSE 2215,Data Structure and Algorithms I,K,Sun,Wed,03:11:PM - 04:30:PM,Md. Zunaid-Ul-Alam
+185,BSCSE,CSE 2215,Data Structure and Algorithms I,J,Sun,Wed,01:51:PM - 03:10:PM,Abu Bakar Fahad
+186,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,A,Sat,,08:30:AM - 11:00:AM,Md. Sajjad Hossain
+187,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,B,Sat,,11:11:AM - 01:40:PM,Pranta Biswas
+188,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,C,Sat,,02:00:PM - 04:30:PM,Sherajul Arifin
+189,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,D,Wed,,11:11:AM - 01:40:PM,Hafijul Hoque Chowdhury
+190,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,E,Sun,,11:11:AM - 01:40:PM,Hafijul Hoque Chowdhury
+191,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,F,Sun,,02:00:PM - 04:30:PM,Charles Aunkan Gomes
+192,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,G,Mon,,08:30:AM - 11:00:AM,Sayeem Been Zaman
+193,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,H,Mon,,11:11:AM - 01:40:PM,Sayeem Been Zaman
+194,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,I,Tue,,08:30:AM - 11:00:AM,Sherajul Arifin
+195,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,J,Tue,,11:11:AM - 01:40:PM,Pranta Biswas
+196,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,K,Wed,,02:00:PM - 04:30:PM,Charles Aunkan Gomes
+197,BSCSE,CSE 2216,Data Structure and Algorithms I Laborator,L,Wed,,11:11:AM - 01:40:PM,Abu Bakar Fahad
+198,BSCSE,CSE 2217,Data Structure and Algorithms II,A,Sat,Tue,08:30:AM - 09:50:AM,Fairoz Anika
+199,BSCSE,CSE 2217,Data Structure and Algorithms II,B,Sat,Tue,09:51:AM - 11:10:AM,Md. Tarek Hasan
+200,BSCSE,CSE 2217,Data Structure and Algorithms II,C,Sat,Tue,11:11:AM - 12:30:PM,Ms. Mehreen Hossain Ch
+201,BSCSE,CSE 2217,Data Structure and Algorithms II,D,Sat,Tue,12:31:PM - 01:50:PM,Md. Tarek Hasan
+202,BSCSE,CSE 2217,Data Structure and Algorithms II,E,Sat,Tue,01:51:PM - 03:10:PM,Ms. Sumaiya Ahmed RaniMs. Suma
+203,BSCSE,CSE 2217,Data Structure and Algorithms II,F,Sat,Tue,03:11:PM - 04:30:PM,Mr. Sheikh Tanvir Ahmed
+204,BSCSE,CSE 2217,Data Structure and Algorithms II,I,Sun,Wed,11:11:AM - 12:30:PM,Fairoz Anika
+205,BSCSE,CSE 2217,Data Structure and Algorithms II,J,Sun,Wed,12:31:PM - 01:50:PM,Md. Tarek Hasan
+206,BSCSE,CSE 2217,Data Structure and Algorithms II,K,Sun,Wed,01:51:PM - 03:10:PM,Fairoz Anika
+207,BSCSE,CSE 2217,Data Structure and Algorithms II,L,Sun,Wed,03:11:PM - 04:30:PM,Anindya Hoque
+208,BSCSE,CSE 2217,Data Structure and Algorithms II,G,Sun,Wed,08:30:AM - 09:50:AM,Ms. Sumaiya Ahmed Rani
+209,BSCSE,CSE 2217,Data Structure and Algorithms II,H,Sun,Wed,09:51:AM - 11:10:AM,Md. Tarek Hasan
+210,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,P,Wed,,11:11:AM - 01:40:PM,Humaira Anzum Neha
+211,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,Q,Wed,,02:00:PM - 04:30:PM,Tasmia Binte Sogir
+212,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,A,Sat,,08:30:AM - 11:00:AM,Anindya Hoque
+213,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,B,Sat,,11:11:AM - 01:40:PM,Asif Abrar
+214,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,C,Sat,,02:00:PM - 04:30:PM,Rizvan Jawad Ruhan
+215,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,D,Wed,,11:11:AM - 01:40:PM,Anindya Hoque
+216,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,L,Tue,,11:11:AM - 01:40:PM,Tasmia Binte Sogir
+217,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,M,Tue,,02:00:PM - 04:30:PM,Rizvan Jawad Ruhan
+218,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,N,Tue,,11:11:AM - 01:40:PM,Asif Abrar
+219,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,O,Wed,,08:30:AM - 11:00:AM,Diniya Tahrin Bhuiyan
+220,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,F,Sun,,11:11:AM - 01:40:PM,Humaira Anzum Neha
+221,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,E,Sun,,08:30:AM - 11:00:AM,Sayem Shahad
+222,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,G,Mon,,02:00:PM - 04:30:PM,Md. Enamul Haque
+223,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,H,Sun,,11:11:AM - 01:40:PM,Ms. Sumaiya Ahmed Rani
+224,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,I,Mon,,02:00:PM - 04:30:PM,Raiyan Janik Monir
+225,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,J,Mon,,11:11:AM - 01:40:PM,Raiyan Janik Monir
+226,BSCSE,CSE 2218,Data Structure and Algorithms II Laborato,K,Tue,,08:30:AM - 11:00:AM,Sayem Shahad
+227,BSCSE,CSE 2233,Theory of Computation,A,Sat,Tue,08:30:AM - 09:50:AM,Asif Ahmed Utsa
+228,BSCSE,CSE 2233,Theory of Computation,B,Sat,Tue,11:11:AM - 12:30:PM,Md. Muhyminul Haque
+229,BSCSE,CSE 2233,Theory of Computation,C,Sat,Tue,01:51:PM - 03:10:PM,Asif Ahmed Utsa
+230,BSCSE,CSE 2233,Theory of Computation,D,Sun,Wed,09:51:AM - 11:10:AM,Md. Muhyminul Haque
+231,BSCSE,CSE 2233,Theory of Computation,E,Sun,Wed,11:11:AM - 12:30:PM,Asif Ahmed Utsa
+232,BSCSE,CSE 2233,Theory of Computation,F,Sun,Wed,12:31:PM - 01:50:PM,Ms. Mehreen Hossain Ch
+233,BSCSE,CSE 2233,Theory of Computation,G,Sun,Wed,03:11:PM - 04:30:PM,Ms. Mehreen Hossain Ch
+234,BSCSE,CSE 3313,Computer Architecture,A,Sat,Tue,08:30:AM - 09:50:AM,Tasmin Sanjida
+235,BSCSE,CSE 3313,Computer Architecture,B,Sat,Tue,09:51:AM - 11:10:AM,Sidratul Tanzila Tasmi
+236,BSCSE,CSE 3313,Computer Architecture,C,Sat,Tue,11:11:AM - 12:30:PM,Tasmin Sanjida
+237,BSCSE,CSE 3313,Computer Architecture,D,Sat,Tue,12:31:PM - 01:50:PM,Humaira Anzum Neha
+238,BSCSE,CSE 3313,Computer Architecture,E,Sat,Tue,01:51:PM - 03:10:PM,Sidratul Tanzila Tasmi
+239,BSCSE,CSE 3313,Computer Architecture,F,Sat,Tue,03:11:PM - 04:30:PM,TBA
+240,BSCSE,CSE 3313,Computer Architecture,G,Sun,Wed,08:30:AM - 09:50:AM,Humaira Anzum Neha
+241,BSCSE,CSE 3313,Computer Architecture,H,Sun,Wed,09:51:AM - 11:10:AM,Humaira Anzum Neha
+242,BSCSE,CSE 3313,Computer Architecture,I,Sun,Wed,11:11:AM - 12:30:PM,Shoib Ahmed Shourav
+243,BSCSE,CSE 3313,Computer Architecture,J,Sun,Wed,12:31:PM - 01:50:PM,Shoib Ahmed Shourav
+244,BSCSE,CSE 3313,Computer Architecture,K,Sun,Wed,01:51:PM - 03:10:PM,TBA
+245,BSCSE,CSE 3313,Computer Architecture,L,Sun,Wed,03:11:PM - 04:30:PM,TBA
+246,BSCSE,CSE 3411,System Analysis and Design,A,Sat,Tue,08:30:AM - 09:50:AM,Syed Samin Sadaf
+247,BSCSE,CSE 3411,System Analysis and Design,B,Sat,Tue,09:51:AM - 11:10:AM,Md. Romizul Islam
+248,BSCSE,CSE 3411,System Analysis and Design,C,Sat,Tue,11:11:AM - 12:30:PM,Tasriad Ahmed Tias
+249,BSCSE,CSE 3411,System Analysis and Design,D,Sat,Tue,12:31:PM - 01:50:PM,Suman Ahmmed
+250,BSCSE,CSE 3411,System Analysis and Design,E,Sat,Tue,01:51:PM - 03:10:PM,Sidratul Muntaha
+251,BSCSE,CSE 3411,System Analysis and Design,F,Sat,Tue,03:11:PM - 04:30:PM,Tasmin Sanjida
+252,BSCSE,CSE 3411,System Analysis and Design,M,Sun,Wed,03:11:PM - 04:30:PM,Md. Taky Shaharair
+253,BSCSE,CSE 3411,System Analysis and Design,N,Sun,Wed,01:51:PM - 03:10:PM,TBA
+254,BSCSE,CSE 3411,System Analysis and Design,G,Sat,Tue,09:51:AM - 11:10:AM,Asnuva Tanvin
+255,BSCSE,CSE 3411,System Analysis and Design,H,Sun,Wed,08:30:AM - 09:50:AM,Tasriad Ahmed Tias
+256,BSCSE,CSE 3411,System Analysis and Design,I,Sun,Wed,09:51:AM - 11:10:AM,Sidratul Muntaha
+257,BSCSE,CSE 3411,System Analysis and Design,J,Sun,Wed,11:11:AM - 12:30:PM,Sidratul Muntaha
+258,BSCSE,CSE 3411,System Analysis and Design,K,Sun,Wed,12:31:PM - 01:50:PM,Shahriar Mahmud
+259,BSCSE,CSE 3411,System Analysis and Design,L,Sun,Wed,01:51:PM - 03:10:PM,Tasmin Sanjida
+260,BSCSE,CSE 3412,System Analysis and Design Laboratory,A,Sat,,08:30:AM - 11:00:AM,Sayeem Been Zaman
+261,BSCSE,CSE 3412,System Analysis and Design Laboratory,B,Sat,,11:11:AM - 01:40:PM,Rejwan Ahmed
+262,BSCSE,CSE 3412,System Analysis and Design Laboratory,C,Sat,,02:00:PM - 04:30:PM,Emrul Kayes Raceme
+263,BSCSE,CSE 3412,System Analysis and Design Laboratory,D,Sat,,02:00:PM - 04:30:PM,Md. Kamruzzaman
+264,BSCSE,CSE 3412,System Analysis and Design Laboratory,E,Wed,,08:30:AM - 11:00:AM,Shahil Yasar Haque
+265,BSCSE,CSE 3412,System Analysis and Design Laboratory,F,Sat,,02:00:PM - 04:30:PM,Md. Mainul Islam
+266,BSCSE,CSE 3412,System Analysis and Design Laboratory,M,Wed,,08:30:AM - 11:00:AM,Tasmin Sanjida
+267,BSCSE,CSE 3412,System Analysis and Design Laboratory,N,Wed,,11:11:AM - 01:40:PM,Shahil Yasar Haque
+268,BSCSE,CSE 3412,System Analysis and Design Laboratory,O,Wed,,02:00:PM - 04:30:PM,Sidratul Muntaha
+269,BSCSE,CSE 3412,System Analysis and Design Laboratory,G,Sun,,08:30:AM - 11:00:AM,Tasmin Sanjida
+270,BSCSE,CSE 3412,System Analysis and Design Laboratory,H,Sun,,11:11:AM - 01:40:PM,Zobaer Ibn Razzaque
+271,BSCSE,CSE 3412,System Analysis and Design Laboratory,I,Sun,,02:00:PM - 04:30:PM,Shahil Yasar Haque
+272,BSCSE,CSE 3412,System Analysis and Design Laboratory,J,Tue,,08:30:AM - 11:00:AM,Sayeem Been Zaman
+273,BSCSE,CSE 3412,System Analysis and Design Laboratory,K,Tue,,11:11:AM - 01:40:PM,Sidratul Muntaha
+274,BSCSE,CSE 3412,System Analysis and Design Laboratory,L,Tue,,02:00:PM - 04:30:PM,Sayeem Been Zaman
+275,BSCSE,CSE 3421,Software Engineering,A,Sat,Tue,08:30:AM - 09:50:AM,Samin Sharaf Somik
+276,BSCSE,CSE 3421,Software Engineering,B,Sat,Tue,11:11:AM - 12:30:PM,Md. Benzir Ahmed
+277,BSCSE,CSE 3421,Software Engineering,C,Sat,Tue,12:31:PM - 01:50:PM,Mr. Sheikh Mostofa Amir
+278,BSCSE,CSE 3421,Software Engineering,D,Sat,Tue,01:51:PM - 03:10:PM,Md. Benzir Ahmed
+279,BSCSE,CSE 3421,Software Engineering,E,Sun,Wed,08:30:AM - 09:50:AM,Md. Muhaiminul Islam Na
+280,BSCSE,CSE 3421,Software Engineering,F,Sun,Wed,09:51:AM - 11:10:AM,Md. Muhaiminul Islam Na
+281,BSCSE,CSE 3421,Software Engineering,G,Sun,Wed,11:11:AM - 12:30:PM,Sherajul Arifin
+282,BSCSE,CSE 3421,Software Engineering,H,Sun,Wed,12:31:PM - 01:50:PM,Abrar Mahmud
+283,BSCSE,CSE 3421,Software Engineering,I,Sun,Wed,01:51:PM - 03:10:PM,Md. Muhaiminul Islam Na
+284,BSCSE,CSE 3421,Software Engineering,J,Sun,Wed,03:11:PM - 04:30:PM,Md. Anowarul Abedin
+285,BSCSE,CSE 3421,Software Engineering,K,Sat,Tue,09:51:AM - 11:10:AM,Mr. Sheikh Mostofa Amir
+286,BSCSE,CSE 3421,Software Engineering,L,Sat,Tue,03:11:PM - 04:30:PM,Sajid Ahmed Chowdhury
+287,BSCSE,CSE 3422,Software Engineering Laboratory,A,Sat,,08:30:AM - 11:00:AM,Md. Foysal Ahamed
+288,BSCSE,CSE 3422,Software Engineering Laboratory,B,Sat,,11:11:AM - 01:40:PM,TBA
+289,BSCSE,CSE 3422,Software Engineering Laboratory,C,Sat,,02:00:PM - 04:30:PM,Md. Foysal Ahamed
+290,BSCSE,CSE 3422,Software Engineering Laboratory,D,Sat,,11:11:AM - 01:40:PM,Saifullah Mahbub
+291,BSCSE,CSE 3422,Software Engineering Laboratory,E,Sun,,08:30:AM - 11:00:AM,Zobaer Ibn Razzaque
+292,BSCSE,CSE 3422,Software Engineering Laboratory,F,Sun,,11:11:AM - 01:40:PM,Sajjad Ahmed
+293,BSCSE,CSE 3422,Software Engineering Laboratory,M,Wed,,08:30:AM - 11:00:AM,Mr. Sheikh Mostofa Amir
+294,BSCSE,CSE 3422,Software Engineering Laboratory,N,Wed,,11:11:AM - 01:40:PM,Tasriad Ahmed Tias
+295,BSCSE,CSE 3422,Software Engineering Laboratory,O,Wed,,02:00:PM - 04:30:PM,Mr. Sheikh Mostofa Amir
+296,BSCSE,CSE 3422,Software Engineering Laboratory,G,Sun,,02:00:PM - 04:30:PM,Sajid Ahmed Chowdhury
+297,BSCSE,CSE 3422,Software Engineering Laboratory,H,Sat,,11:11:AM - 01:40:PM,Mohammad Johirul Islam
+298,BSCSE,CSE 3422,Software Engineering Laboratory,I,Tue,,08:30:AM - 11:00:AM,Md. Muhaiminul Islam Na
+299,BSCSE,CSE 3422,Software Engineering Laboratory,J,Tue,,11:11:AM - 01:40:PM,Sajid Ahmed Chowdhury
+300,BSCSE,CSE 3422,Software Engineering Laboratory,K,Tue,,02:00:PM - 04:30:PM,Ashraful Islam Paran
+301,BSCSE,CSE 3422,Software Engineering Laboratory,L,Mon,,08:30:AM - 11:00:AM,Raiyan Janik Monir
+302,BSCSE,CSE 3521,Database Management Systems,A,Sat,Tue,08:30:AM - 09:50:AM,Didarul Islam Didar
+303,BSCSE,CSE 3521,Database Management Systems,B,Sat,Tue,09:51:AM - 11:10:AM,Mobaswirul Islam
+304,BSCSE,CSE 3521,Database Management Systems,C,Sat,Tue,11:11:AM - 12:30:PM,Md. Shafqat Talukder
+305,BSCSE,CSE 3521,Database Management Systems,D,Sat,Tue,12:31:PM - 01:50:PM,Anindya Hoque
+306,BSCSE,CSE 3521,Database Management Systems,E,Sat,Tue,01:51:PM - 03:10:PM,Didarul Islam Didar
+307,BSCSE,CSE 3521,Database Management Systems,F,Sat,Tue,03:11:PM - 04:30:PM,Tanmoy Bipro Das
+308,BSCSE,CSE 3521,Database Management Systems,G,Sun,Wed,08:30:AM - 09:50:AM,Abrar Mahmud
+309,BSCSE,CSE 3521,Database Management Systems,H,Sun,Wed,09:51:AM - 11:10:AM,Md. Shafqat Talukder
+310,BSCSE,CSE 3521,Database Management Systems,I,Sun,Wed,11:11:AM - 12:30:PM,Md. Shafqat Talukder
+311,BSCSE,CSE 3521,Database Management Systems,J,Sun,Wed,12:31:PM - 01:50:PM,Md. Shafqat Talukder
+312,BSCSE,CSE 3521,Database Management Systems,K,Sun,Wed,01:51:PM - 03:10:PM,Farhan Anan Himu
+313,BSCSE,CSE 3521,Database Management Systems,L,Sun,Wed,03:11:PM - 04:30:PM,Abrar Mahmud
+314,BSCSE,CSE 3522,Database Management Systems Laborato,A,Sat,,08:30:AM - 11:00:AM,Mohammad Johirul Islam
+315,BSCSE,CSE 3522,Database Management Systems Laborato,B,Sat,,11:11:AM - 01:40:PM,Zobaer Ibn Razzaque
+316,BSCSE,CSE 3522,Database Management Systems Laborato,C,Sat,,02:00:PM - 04:30:PM,Md. Golam Hossain
+317,BSCSE,CSE 3522,Database Management Systems Laborato,D,Sat,,02:00:PM - 04:30:PM,Zobaer Ibn Razzaque
+318,BSCSE,CSE 3522,Database Management Systems Laborato,E,Sat,,11:11:AM - 01:40:PM,Md. Golam Hossain
+319,BSCSE,CSE 3522,Database Management Systems Laborato,F,Sat,,02:00:PM - 04:30:PM,Saifullah Mahbub
+320,BSCSE,CSE 3522,Database Management Systems Laborato,M,Tue,,02:00:PM - 04:30:PM,Jerin Hasan Priya
+321,BSCSE,CSE 3522,Database Management Systems Laborato,N,Mon,,11:11:AM - 01:40:PM,Md. Enamul Haque
+322,BSCSE,CSE 3522,Database Management Systems Laborato,O,Wed,,08:30:AM - 11:00:AM,Abu Bakar Fahad
+323,BSCSE,CSE 3522,Database Management Systems Laborato,P,Mon,,02:00:PM - 04:30:PM,Abu Bakar Fahad
+324,BSCSE,CSE 3522,Database Management Systems Laborato,G,Sun,,08:30:AM - 11:00:AM,Ms. Mehreen Hossain Ch
+325,BSCSE,CSE 3522,Database Management Systems Laborato,H,Sun,,11:11:AM - 01:40:PM,Abu Bakar Fahad
+326,BSCSE,CSE 3522,Database Management Systems Laborato,I,Wed,,02:00:PM - 04:30:PM,Jerin Hasan Priya
+327,BSCSE,CSE 3522,Database Management Systems Laborato,J,Mon,,08:30:AM - 11:00:AM,Md. Enamul Haque
+328,BSCSE,CSE 3522,Database Management Systems Laborato,K,Tue,,08:30:AM - 11:00:AM,Md. Enamul Haque
+329,BSCSE,CSE 3522,Database Management Systems Laborato,L,Tue,,11:11:AM - 01:40:PM,Miftahul Sheikh
+330,BSCSE,CSE 3711,Computer Networks,A,Sat,Tue,08:30:AM - 09:50:AM,Zaara Zabeen Arpa
+331,BSCSE,CSE 3711,Computer Networks,B,Sat,Tue,09:51:AM - 11:10:AM,Saqif Kaisar
+332,BSCSE,CSE 3711,Computer Networks,C,Sat,Tue,11:11:AM - 12:30:PM,Zaara Zabeen Arpa
+333,BSCSE,CSE 3711,Computer Networks,D,Sat,Tue,12:31:PM - 01:50:PM,Muhammad Nomani Kabi
+334,BSCSE,CSE 3711,Computer Networks,E,Sat,Tue,01:51:PM - 03:10:PM,Muhammad Nomani Kabi
+335,BSCSE,CSE 3711,Computer Networks,F,Sun,Wed,08:30:AM - 09:50:AM,Abdullah Ibne Masud Ma
+336,BSCSE,CSE 3711,Computer Networks,G,Sun,Wed,09:51:AM - 11:10:AM,Mohammad Mamun Elah
+337,BSCSE,CSE 3711,Computer Networks,H,Sun,Wed,11:11:AM - 12:30:PM,Mohammad Mamun Elah
+338,BSCSE,CSE 3711,Computer Networks,I,Sun,Wed,12:31:PM - 01:50:PM,Zaara Zabeen Arpa
+339,BSCSE,CSE 3711,Computer Networks,J,Sun,Wed,01:51:PM - 03:10:PM,Abdullah Ibne Masud Ma
+340,BSCSE,CSE 3711,Computer Networks,K,Sun,Wed,03:11:PM - 04:30:PM,Pranta Biswas
+341,BSCSE,CSE 3712,Computer Networks Laboratory,A,Mon,,08:30:AM - 11:00:AM,Abu Bakar Fahad
+342,BSCSE,CSE 3712,Computer Networks Laboratory,B,Sun,,11:11:AM - 01:40:PM,Abdullah Ibne Masud Ma
+343,BSCSE,CSE 3712,Computer Networks Laboratory,C,Sun,,02:00:PM - 04:30:PM,Md. Muhyminul Haque
+344,BSCSE,CSE 3712,Computer Networks Laboratory,D,Tue,,11:11:AM - 01:40:PM,Mr. Abid Hasan Khondake
+345,BSCSE,CSE 3712,Computer Networks Laboratory,E,Tue,,08:30:AM - 11:00:AM,Mr. Abid Hasan Khondake
+346,BSCSE,CSE 3712,Computer Networks Laboratory,F,Mon,,11:11:AM - 01:40:PM,Mr. Abid Hasan Khondake
+347,BSCSE,CSE 3712,Computer Networks Laboratory,G,Mon,,02:00:PM - 04:30:PM,Mr. Abid Hasan Khondake
+348,BSCSE,CSE 3712,Computer Networks Laboratory,H,Tue,,02:00:PM - 04:30:PM,Zaara Zabeen Arpa
+349,BSCSE,CSE 3712,Computer Networks Laboratory,I,Tue,,08:30:AM - 11:00:AM,Abu Bakar Fahad
+350,BSCSE,CSE 3712,Computer Networks Laboratory,J,Wed,,11:11:AM - 01:40:PM,Abdullah Ibne Masud Ma
+351,BSCSE,CSE 3712,Computer Networks Laboratory,K,Wed,,02:00:PM - 04:30:PM,Md. Muhyminul Haque
+352,BSCSE,CSE 3712,Computer Networks Laboratory,L,Wed,,08:30:AM - 11:00:AM,Zaara Zabeen Arpa
+353,BSCSE,CSE 3715,Data Communication,A,Sat,Tue,09:51:AM - 11:10:AM,Ashraful Islam Paran
+354,BSCSE,CSE 3811,Artificial Intelligence,A,Sat,Tue,08:30:AM - 09:50:AM,Mr. Sheikh Mostofa Amir
+355,BSCSE,CSE 3811,Artificial Intelligence,B,Sat,Tue,09:51:AM - 11:10:AM,Md. Suzauddola
+356,BSCSE,CSE 3811,Artificial Intelligence,C,Sat,Tue,11:11:AM - 12:30:PM,Mr. Md. Tamim Iqbal
+357,BSCSE,CSE 3811,Artificial Intelligence,D,Sat,Tue,12:31:PM - 01:50:PM,Rubaiya Rahtin Khan
+358,BSCSE,CSE 3811,Artificial Intelligence,E,Sat,Tue,01:51:PM - 03:10:PM,Mr. Md. Tamim Iqbal
+359,BSCSE,CSE 3811,Artificial Intelligence,F,Sat,Tue,03:11:PM - 04:30:PM,Md. Suzauddola
+360,BSCSE,CSE 3811,Artificial Intelligence,G,Sun,Wed,08:30:AM - 09:50:AM,Nahid Ferdous Aurna
+361,BSCSE,CSE 3811,Artificial Intelligence,H,Sun,Wed,09:51:AM - 11:10:AM,Md. Tanvir Raihan
+362,BSCSE,CSE 3811,Artificial Intelligence,I,Sun,Wed,11:11:AM - 12:30:PM,Nahid Ferdous Aurna
+363,BSCSE,CSE 3811,Artificial Intelligence,J,Sun,Wed,12:31:PM - 01:50:PM,Rubaiya Rahtin Khan
+364,BSCSE,CSE 3811,Artificial Intelligence,K,Sun,Wed,01:51:PM - 03:10:PM,Arnab Bhattacharjee
+365,BSCSE,CSE 3811,Artificial Intelligence,L,Sun,Wed,03:11:PM - 04:30:PM,Rakibul Hasan Rafi
+366,BSCSE,CSE 3812,Artificial Intelligence Laboratory,A,Sun,,11:11:AM - 01:40:PM,Mr. Sheikh Mostofa Amir
+367,BSCSE,CSE 3812,Artificial Intelligence Laboratory,B,Wed,,11:11:AM - 01:40:PM,Md. Enamul Haque
+368,BSCSE,CSE 3812,Artificial Intelligence Laboratory,C,Sat,,02:00:PM - 04:30:PM,Md. Taky Shaharair
+369,BSCSE,CSE 3812,Artificial Intelligence Laboratory,D,Tue,,11:11:AM - 01:40:PM,Raiyan Janik Monir
+370,BSCSE,CSE 3812,Artificial Intelligence Laboratory,E,Sun,,11:11:AM - 01:40:PM,Mr. Mabsur Fatin Bin Hossain
+371,BSCSE,CSE 3812,Artificial Intelligence Laboratory,F,Sun,,02:00:PM - 04:30:PM,Mr. Md. Tamim Iqbal
+372,BSCSE,CSE 3812,Artificial Intelligence Laboratory,M,Mon,,11:11:AM - 01:40:PM,Mr. Md. Tamim Iqbal
+373,BSCSE,CSE 3812,Artificial Intelligence Laboratory,N,Mon,,02:00:PM - 04:30:PM,Jerin Hasan Priya
+374,BSCSE,CSE 3812,Artificial Intelligence Laboratory,G,Tue,,08:30:AM - 11:00:AM,Md. Taky Shaharair
+375,BSCSE,CSE 3812,Artificial Intelligence Laboratory,H,Tue,,11:11:AM - 01:40:PM,Siana Rizwan
+376,BSCSE,CSE 3812,Artificial Intelligence Laboratory,I,Tue,,02:00:PM - 04:30:PM,Mr. Masnoon Muztahid
+377,BSCSE,CSE 3812,Artificial Intelligence Laboratory,J,Wed,,08:30:AM - 11:00:AM,Fairoz Anika
+378,BSCSE,CSE 3812,Artificial Intelligence Laboratory,K,Wed,,11:11:AM - 01:40:PM,Diniya Tahrin Bhuiyan
+379,BSCSE,CSE 3812,Artificial Intelligence Laboratory,L,Wed,,02:00:PM - 04:30:PM,Md. Enamul Haque
+380,BSCSE,CSE 4000A,Final Year Design Project - I,A,Sat,,08:30:AM - 11:00:AM,Hasan Sarwar
+381,BSCSE,CSE 4000A,Final Year Design Project - I,B,Sun,,08:30:AM - 11:00:AM,Muhammad Nomani Kabi
+382,BSCSE,CSE 4000A,Final Year Design Project - I,C,Sun,,11:11:AM - 01:40:PM,Mohammad Nurul Huda
+383,BSCSE,CSE 4000A,Final Year Design Project - I,D,Sat,,08:30:AM - 11:00:AM,Md. Motaharul Islam
+384,BSCSE,CSE 4000A,Final Year Design Project - I,E,Tue,,08:30:AM - 11:00:AM,Suman Ahmmed
+385,BSCSE,CSE 4000A,Final Year Design Project - I,F,Tue,,11:11:AM - 01:40:PM,Al-Sakib Khan Pathan
+386,BSCSE,CSE 4000A,Final Year Design Project - I,G,Tue,,02:00:PM - 04:30:PM,Riasat Azim
+387,BSCSE,CSE 4000A,Final Year Design Project - I,H,Wed,,08:30:AM - 11:00:AM,Ohidujjaman
+388,BSCSE,CSE 4000A,Final Year Design Project - I,I,Sat,,11:11:AM - 01:40:PM,Mohammad Shahriar Rah
+389,BSCSE,CSE 4000A,Final Year Design Project - I,J,Wed,,11:11:AM - 01:40:PM,Jannatun Noor Mukta
+390,BSCSE,CSE 4125,Ethical Hacking and Network Defense,A,Sun,,02:00:PM - 04:30:PM,Mohammad Mamun Elah
+391,BSCSE,CSE 4133,Business Intelligence,A,Sun,Wed,12:31:PM - 01:50:PM,Md. Anowarul Abedin
+392,BSCSE,CSE 4165,Web Programming,A,Sat,,08:30:AM - 11:00:AM,Farhan Anan Himu
+393,BSCSE,CSE 4165,Web Programming,B,Sat,,11:11:AM - 01:40:PM,Farhan Anan Himu
+394,BSCSE,CSE 4165,Web Programming,C,Sat,,02:00:PM - 04:30:PM,Tasmia Binte Sogir
+395,BSCSE,CSE 4165,Web Programming,D,Sat,,08:30:AM - 11:00:AM,Hafijul Hoque Chowdhury
+396,BSCSE,CSE 4165,Web Programming,E,Sun,,08:30:AM - 11:00:AM,Mr. Abid Hasan Khondake
+397,BSCSE,CSE 4165,Web Programming,F,Sun,,11:11:AM - 01:40:PM,Pranta Biswas
+398,BSCSE,CSE 4165,Web Programming,M,Tue,,11:11:AM - 01:40:PM,Farhan Anan Himu
+399,BSCSE,CSE 4165,Web Programming,N,Tue,,02:00:PM - 04:30:PM,Kazi Abdun Noor
+400,BSCSE,CSE 4165,Web Programming,O,Wed,,08:30:AM - 11:00:AM,Mahmudul Hasan
+401,BSCSE,CSE 4165,Web Programming,P,Wed,,11:11:AM - 01:40:PM,Pranta Biswas
+402,BSCSE,CSE 4165,Web Programming,Q,Wed,,02:00:PM - 04:30:PM,Sayem Shahad
+403,BSCSE,CSE 4165,Web Programming,R,Wed,,08:30:AM - 11:00:AM,Sayem Shahad
+404,BSCSE,CSE 4165,Web Programming,G,Sun,,02:00:PM - 04:30:PM,Kazi Abdun Noor
+405,BSCSE,CSE 4165,Web Programming,H,Sun,,02:00:PM - 04:30:PM,Mahmudul Hasan
+406,BSCSE,CSE 4165,Web Programming,I,Mon,,08:30:AM - 11:00:AM,Mahmudul Hasan
+407,BSCSE,CSE 4165,Web Programming,J,Mon,,11:11:AM - 01:40:PM,Rafid Nahiyan Farabi
+408,BSCSE,CSE 4165,Web Programming,K,Mon,,02:00:PM - 04:30:PM,Mr. Md. Tamim Iqbal
+409,BSCSE,CSE 4165,Web Programming,L,Tue,,08:30:AM - 11:00:AM,Farhan Anan Himu
+410,BSCSE,CSE 4181,Mobile Application Development,A,Sun,,08:30:AM - 11:00:AM,Kazi Abdun Noor
+411,BSCSE,CSE 4181,Mobile Application Development,B,Tue,,11:11:AM - 01:40:PM,Kazi Abdun Noor
+412,BSCSE,CSE 4325,Microprocessors and Microcontrollers,A,Sat,Tue,11:11:AM - 12:30:PM,Sudipto Mondal
+413,BSCSE,CSE 4325,Microprocessors and Microcontrollers,B,Sun,Wed,03:11:PM - 04:30:PM,Rafid Nahiyan Farabi
+414,BSCSE,CSE 4325,Microprocessors and Microcontrollers,C,Sat,Tue,12:31:PM - 01:50:PM,Sudipto Mondal
+415,BSCSE,CSE 4325,Microprocessors and Microcontrollers,D,Sun,Wed,09:51:AM - 11:10:AM,Arnab Bhattacharjee
+416,BSCSE,CSE 4325,Microprocessors and Microcontrollers,E,Sat,Tue,01:51:PM - 03:10:PM,Arnab Bhattacharjee
+417,BSCSE,CSE 4325,Microprocessors and Microcontrollers,F,Sun,Wed,11:11:AM - 12:30:PM,M. Fahmin Rahman
+418,BSCSE,CSE 4325,Microprocessors and Microcontrollers,H,Sun,Wed,12:31:PM - 01:50:PM,Rafid Nahiyan Farabi
+419,BSCSE,CSE 4325,Microprocessors and Microcontrollers,I,Sun,Wed,08:30:AM - 09:50:AM,Arnab Bhattacharjee
+420,BSCSE,CSE 4325,Microprocessors and Microcontrollers,J,Sat,Tue,09:51:AM - 11:10:AM,M. Fahmin Rahman
+421,BSCSE,CSE 4325,Microprocessors and Microcontrollers,G,Sat,Tue,08:30:AM - 09:50:AM,M. Fahmin Rahman
+422,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,A,Sat,,08:30:AM - 11:00:AM,Sudipto Mondal
+423,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,B,Sat,,11:11:AM - 01:40:PM,Rafid Nahiyan Farabi
+424,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,C,Sun,,08:30:AM - 11:00:AM,Sudipto Mondal
+425,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,D,Sun,,11:11:AM - 01:40:PM,Md. Abid Hossain
+426,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,E,Sun,,02:00:PM - 04:30:PM,M. Fahmin Rahman
+427,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,F,Tue,,08:30:AM - 11:00:AM,Raiyan Janik Monir
+428,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,M,Sat,,08:30:AM - 11:00:AM,Arnab Bhattacharjee
+429,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,G,Tue,,11:11:AM - 01:40:PM,Arnab Bhattacharjee
+430,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,H,Tue,,02:00:PM - 04:30:PM,M. Fahmin Rahman
+431,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,I,Wed,,08:30:AM - 11:00:AM,Rafid Nahiyan Farabi
+432,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,J,Wed,,11:11:AM - 01:40:PM,Mr. Angkon Deb
+433,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,K,Wed,,02:00:PM - 04:30:PM,Liakat Omar Rihan
+434,BSCSE,CSE 4326,Microprocessors and Microcontrollers Lab,L,Wed,,08:30:AM - 11:00:AM,Jerin Hasan Priya
+435,BSCSE,CSE 4327,VLSI Design,A,Sun,,11:11:AM - 01:40:PM,Sudipto Mondal
+436,BSCSE,CSE 4399,Special Topics - Embedded Machine Learn,A,Sat,Tue,09:51:AM - 11:10:AM,Siddique Md. Lutful Kabir/Mr. Angkon Deb
+437,BSCSE,CSE 4435,Software Architecture,A,Sun,Wed,08:30:AM - 09:50:AM,Tanmoy Bipro Das
+438,BSCSE,CSE 4435,Software Architecture,B,Sat,Tue,01:51:PM - 03:10:PM,Tanmoy Bipro Das
+439,BSCSE,CSE 4435,Software Architecture,C,Sun,Wed,03:11:PM - 04:30:PM,Zaara Zabeen Arpa
+440,BSCSE,CSE 4451,Human Computer Interaction,A,Sat,Tue,08:30:AM - 09:50:AM,Novia Nurain
+441,BSCSE,CSE 4451,Human Computer Interaction,B,Sat,Tue,09:51:AM - 11:10:AM,Novia Nurain
+442,BSCSE,CSE 4451,Human Computer Interaction,C,Sat,Tue,03:11:PM - 04:30:PM,Md. Sajjad Hossain
+443,BSCSE,CSE 4451,Human Computer Interaction,D,Sun,Wed,08:30:AM - 09:50:AM,Nabila Sabrin Sworna
+444,BSCSE,CSE 4451,Human Computer Interaction,E,Sun,Wed,01:51:PM - 03:10:PM,Nabila Sabrin Sworna
+445,BSCSE,CSE 4451,Human Computer Interaction,F,Sun,Wed,03:11:PM - 04:30:PM,Nahin F. Siddiqui
+446,BSCSE,CSE 4495,Software Testing and Quality Assurance,A,Sun,Wed,12:31:PM - 01:50:PM,Mobaswirul Islam
+447,BSCSE,CSE 4495,Software Testing and Quality Assurance,B,Sat,Tue,11:11:AM - 12:30:PM,Mobaswirul Islam
+448,BSCSE,CSE 4495,Software Testing and Quality Assurance,C,Sat,Tue,01:51:PM - 03:10:PM,Mobaswirul Islam
+449,BSCSE,CSE 4509,Operating Systems,A,Sat,Tue,08:30:AM - 09:50:AM,Md. Siam
+450,BSCSE,CSE 4509,Operating Systems,B,Sat,Tue,12:31:PM - 01:50:PM,Md. Siam
+451,BSCSE,CSE 4509,Operating Systems,C,Sat,Tue,01:51:PM - 03:10:PM,Md. Enamul Haque
+452,BSCSE,CSE 4509,Operating Systems,D,Sat,Tue,03:11:PM - 04:30:PM,Md. Siam
+453,BSCSE,CSE 4509,Operating Systems,E,Sun,Wed,08:30:AM - 09:50:AM,Mr. Syed Tauhid Zuhori
+454,BSCSE,CSE 4509,Operating Systems,F,Sun,Wed,11:11:AM - 12:30:PM,Md. Siam
+455,BSCSE,CSE 4509,Operating Systems,G,Sun,Wed,01:51:PM - 03:10:PM,Md. Sajjad Hossain
+456,BSCSE,CSE 4509,Operating Systems,H,Sun,Wed,03:11:PM - 04:30:PM,Md. Sajjad Hossain
+457,BSCSE,CSE 4509,Operating Systems,I,Sun,Wed,09:51:AM - 11:10:AM,Azizur Rahman Anik
+458,BSCSE,CSE 4510,Operating Systems Laboratory,A,Sat,,02:00:PM - 04:30:PM,Nahin F. Siddiqui
+459,BSCSE,CSE 4510,Operating Systems Laboratory,B,Sat,,08:30:AM - 11:00:AM,Ms. Mehreen Hossain Ch
+460,BSCSE,CSE 4510,Operating Systems Laboratory,C,Sun,,02:00:PM - 04:30:PM,Md. Siam
+461,BSCSE,CSE 4510,Operating Systems Laboratory,D,Sun,,08:30:AM - 11:00:AM,Shahil Yasar Haque
+462,BSCSE,CSE 4510,Operating Systems Laboratory,E,Mon,,11:11:AM - 01:40:PM,Md. Zunaid-Ul-Alam
+463,BSCSE,CSE 4510,Operating Systems Laboratory,F,Mon,,02:00:PM - 04:30:PM,Shahil Yasar Haque
+464,BSCSE,CSE 4510,Operating Systems Laboratory,G,Mon,,11:11:AM - 01:40:PM,Kazi Abdun Noor
+465,BSCSE,CSE 4510,Operating Systems Laboratory,H,Tue,,11:11:AM - 01:40:PM,Nahin F. Siddiqui
+466,BSCSE,CSE 4510,Operating Systems Laboratory,I,Tue,,02:00:PM - 04:30:PM,Shahil Yasar Haque
+467,BSCSE,CSE 4510,Operating Systems Laboratory,J,Tue,,08:30:AM - 11:00:AM,Diniya Tahrin Bhuiyan
+468,BSCSE,CSE 4510,Operating Systems Laboratory,K,Wed,,02:00:PM - 04:30:PM,Md. Siam
+469,BSCSE,CSE 4510,Operating Systems Laboratory,L,Wed,,08:30:AM - 11:00:AM,Md. Enamul Haque
+470,BSCSE,CSE 4531,Computer Security,A,Sat,Tue,11:11:AM - 12:30:PM,Nahid Ferdous Aurna
+471,BSCSE,CSE 4531,Computer Security,B,Sat,Tue,12:31:PM - 01:50:PM,Azizur Rahman Anik
+472,BSCSE,CSE 4531,Computer Security,C,Sat,Tue,08:30:AM - 09:50:AM,Nahid Ferdous Aurna
+473,BSCSE,CSE 4531,Computer Security,D,Sun,Wed,09:51:AM - 11:10:AM,Md. Shohrab Hossain
+474,BSCSE,CSE 4531,Computer Security,E,Sun,Wed,11:11:AM - 12:30:PM,Md. Taky Shaharair
+475,BSCSE,CSE 4531,Computer Security,F,Sun,Wed,01:51:PM - 03:10:PM,Md. Taky Shaharair
+476,BSCSE,CSE 4531,Computer Security,G,Sat,Tue,09:51:AM - 11:10:AM,Azizur Rahman Anik
+477,BSCSE,CSE 4531,Computer Security,H,Sun,Wed,03:11:PM - 04:30:PM,Azizur Rahman Anik
+478,BSCSE,CSE 4531,Computer Security,I,Sat,Tue,08:30:AM - 09:50:AM,Abrar Mahmud
+479,BSCSE,CSE 4587,Cloud Computing,A,Sun,,02:00:PM - 04:30:PM,Md. Mushfiqul Haque Om
+480,BSCSE,CSE 4587,Cloud Computing,B,Wed,,11:11:AM - 01:40:PM,Md. Mushfiqul Haque Om
+481,BSCSE,CSE 4611,Compiler Design,A,Sat,Tue,08:30:AM - 09:50:AM,Nabila Sabrin Sworna
+482,BSCSE,CSE 4611,Compiler Design,B,Sun,Wed,08:30:AM - 09:50:AM,Anindya Hoque
+483,BSCSE,CSE 4611,Compiler Design,C,Sat,Tue,03:11:PM - 04:30:PM,Anindya Hoque
+484,BSCSE,CSE 4777,Networks Security,A,Sun,Wed,12:31:PM - 01:50:PM,Md. Shohrab Hossain
+485,BSCSE,CSE 4811,Natural Language Processing,A,Sun,Wed,08:30:AM - 09:50:AM,Muhammad Anwarul Azi
+486,BSCSE,CSE 4813,Deep Learning,A,Sat,Tue,01:51:PM - 03:10:PM,Ohidujjaman
+487,BSCSE,CSE 4817,Big Data Analytics,A,Sat,Tue,12:31:PM - 01:50:PM,Dewan Md. Farid
+488,BSCSE,CSE 4883,Digital Image Processing,A,Sat,Tue,11:11:AM - 12:30:PM,Md. Tanvir Raihan
+489,BSCSE,CSE 4883,Digital Image Processing,B,Sat,Tue,09:51:AM - 11:10:AM,Md. Tanvir Raihan
+490,BSCSE,CSE 4883,Digital Image Processing,C,Sat,Tue,01:51:PM - 03:10:PM,Md. Tanvir Raihan
+491,BSCSE,CSE 4883,Digital Image Processing,D,Sun,Wed,08:30:AM - 09:50:AM,Md. Suzauddola
+492,BSCSE,CSE 4883,Digital Image Processing,E,Sun,Wed,03:11:PM - 04:30:PM,Md. Suzauddola
+493,BSCSE,CSE 4889,Machine Learning,A,Sat,Tue,08:30:AM - 09:50:AM,Sadia Islam
+494,BSCSE,CSE 4889,Machine Learning,B,Sun,Wed,08:30:AM - 09:50:AM,Sadia Islam
+495,BSCSE,CSE 4889,Machine Learning,C,Sun,Wed,03:11:PM - 04:30:PM,Asif Abrar
+496,BSCSE,CSE 4889,Machine Learning,D,Sat,Tue,01:51:PM - 03:10:PM,Md. Suzauddola
+497,BSCSE,CSE 4889,Machine Learning,E,Sat,Tue,12:31:PM - 01:50:PM,Ohidujjaman
+498,BSCSE,CSE 4889,Machine Learning,F,Sun,Wed,01:51:PM - 03:10:PM,Mr. Abid Hasan Khondake
+499,BSCSE,CSE 4889,Machine Learning,G,Sun,Wed,11:11:AM - 12:30:PM,Mr. Abid Hasan Khondake
+500,BSCSE,CSE 4889,Machine Learning,H,Sat,Tue,09:51:AM - 11:10:AM,Charles Aunkan Gomes
+501,BSCSE,CSE 4891,Data Mining,A,Sat,Tue,11:11:AM - 12:30:PM,Sayem Shahad
+502,BSCSE,CSE 4891,Data Mining,B,Sat,Tue,09:51:AM - 11:10:AM,Ohidujjaman
+503,BSCSE,CSE 4891,Data Mining,C,Sat,Tue,01:51:PM - 03:10:PM,Sadia Islam
+504,BSCSE,CSE 4891,Data Mining,D,Sun,Wed,09:51:AM - 11:10:AM,Charles Aunkan Gomes
+505,BSCSE,CSE 4891,Data Mining,E,Sun,Wed,11:11:AM - 12:30:PM,Sadia Islam
+506,BSCSE,CSE 4891,Data Mining,F,Sun,Wed,12:31:PM - 01:50:PM,Rizvan Jawad Ruhan
+507,BSCSE,CSE 4893,Introduction to Bioinformatics,A,Sun,Wed,12:31:PM - 01:50:PM,Riasat Azim
+508,BSCSE,CSE 4945,UI: Concepts and Design,A,Sat,,02:00:PM - 04:30:PM,Pranta Biswas
+509,BSCSE,CSE 4945,UI: Concepts and Design,B,Wed,,08:30:AM - 11:00:AM,Tasmia Binte Sogir
+510,BSCSE,CSE 4945,UI: Concepts and Design,C,Sun,,11:11:AM - 01:40:PM,Tasmia Binte Sogir
+511,BSCSE,ECO 4101,Economics,A,Sat,Tue,12:31:PM - 01:50:PM,Tasneem Jahan Tumpa
+512,BSCSE,ECO 4101,Economics,E,Sun,Wed,09:51:AM - 11:10:AM,Tanzila Amir
+513,BSCSE,ECO 4101,Economics,F,Sun,Wed,11:11:AM - 12:30:PM,Tasneem Jahan Tumpa
+514,BSCSE,ECO 4101,Economics,C,Sat,Tue,03:11:PM - 04:30:PM,Mohammad Akhtaruzzam
+515,BSCSE,ECO 4101,Economics,D,Sat,Tue,08:30:AM - 09:50:AM,Mohammad Akhtaruzzam
+516,BSCSE,ECO 4101,Economics,B,Sat,Tue,01:51:PM - 03:10:PM,Tanzila Amir
+517,BSCSE,ECO 4101,Economics,G,Sun,Wed,01:51:PM - 03:10:PM,Antara Chowdhury
+518,BSCSE,ECO 4101,Economics,H,Sun,Wed,03:11:PM - 04:30:PM,Tasneem Jahan Tumpa
+519,BSCSE,EEE 2113,Electrical Circuits,A,Sat,Tue,08:30:AM - 09:50:AM,Md. Abid Hossain
+520,BSCSE,EEE 2113,Electrical Circuits,B,Sat,Tue,09:51:AM - 11:10:AM,Md. Abid Hossain
+521,BSCSE,EEE 2113,Electrical Circuits,C,Sat,Tue,11:11:AM - 12:30:PM,Taki Yashir
+522,BSCSE,EEE 2113,Electrical Circuits,D,Sat,Tue,03:11:PM - 04:30:PM,Imran Hossain
+523,BSCSE,EEE 2113,Electrical Circuits,E,Sat,Tue,01:51:PM - 03:10:PM,Liakat Omar Rihan
+524,BSCSE,EEE 2113,Electrical Circuits,F,Sun,Wed,08:30:AM - 09:50:AM,Sajid Ahmed Chowdhury
+525,BSCSE,EEE 2113,Electrical Circuits,G,Sun,Wed,09:51:AM - 11:10:AM,Imran Hossain
+526,BSCSE,EEE 2113,Electrical Circuits,H,Sun,Wed,11:11:AM - 12:30:PM,Mr. Md. Nadeem Chowdh
+527,BSCSE,EEE 2113,Electrical Circuits,I,Sun,Wed,12:31:PM - 01:50:PM,Taki Yashir
+528,BSCSE,EEE 2113,Electrical Circuits,J,Sun,Wed,01:51:PM - 03:10:PM,Mr. Kazi Abid Hasan
+529,BSCSE,EEE 2113,Electrical Circuits,K,Sun,Wed,03:11:PM - 04:30:PM,TBA
+530,BSCSE,EEE 2123,Electronics,A,Sat,Tue,03:11:PM - 04:30:PM,Taki Yashir
+531,BSCSE,EEE 2123,Electronics,B,Sat,Tue,09:51:AM - 11:10:AM,Abu Shafin Mohammad M
+532,BSCSE,EEE 2123,Electronics,C,Sat,Tue,11:11:AM - 12:30:PM,Abu Shafin Mohammad M
+533,BSCSE,EEE 2123,Electronics,D,Sat,Tue,12:31:PM - 01:50:PM,Md. Abid Hossain
+534,BSCSE,EEE 2123,Electronics,E,Sat,Tue,01:51:PM - 03:10:PM,Taki Yashir
+535,BSCSE,EEE 2123,Electronics,F,Sun,Wed,08:30:AM - 09:50:AM,Sarwat Amin

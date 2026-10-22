@@ -1,0 +1,15 @@
+[theme]
+base = "light"
+primaryColor = "#0B6E4F"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F6F4"
+textColor = "#12211C"
+font = "sans serif"
+
+[theme.sidebar]
+backgroundColor = "#F2F6F4"
+
+[server]
+headless = true
+fileWatcherType = "auto"
+runOnSave = true

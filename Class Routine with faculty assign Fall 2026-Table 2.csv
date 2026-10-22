@@ -1,0 +1,257 @@
+Sl,Program,Course Code,Title,Section,Day1,Day2,Time1,Faculty Name
+536,BSCSE,EEE 2123,Electronics,G,Sun,Wed,09:51:AM - 11:10:AM,Sarwat Amin
+537,BSCSE,EEE 2123,Electronics,H,Sun,Wed,01:51:PM - 03:10:PM,Mr. Md. Nadeem Chowdh
+538,BSCSE,EEE 2123,Electronics,I,Sun,Wed,12:31:PM - 01:50:PM,Sarwat Amin
+539,BSCSE,EEE 2124,Electronics Laboratory,A,Sat,,08:30:AM - 11:00:AM,Imran Hossain
+540,BSCSE,EEE 2124,Electronics Laboratory,B,Sat,,11:11:AM - 01:40:PM,Mr. Md. Nadeem Chowdh
+541,BSCSE,EEE 2124,Electronics Laboratory,C,Sun,,08:30:AM - 11:00:AM,Md. Abid Hossain
+542,BSCSE,EEE 2124,Electronics Laboratory,D,Sun,,11:11:AM - 01:40:PM,Imran Hossain
+543,BSCSE,EEE 2124,Electronics Laboratory,E,Sun,,02:00:PM - 04:30:PM,Taki Yashir
+544,BSCSE,EEE 2124,Electronics Laboratory,F,Tue,,08:30:AM - 11:00:AM,Jerin Hasan Priya
+545,BSCSE,EEE 2124,Electronics Laboratory,G,Tue,,11:11:AM - 01:40:PM,Jerin Hasan Priya
+546,BSCSE,EEE 2124,Electronics Laboratory,H,Tue,,02:00:PM - 04:30:PM,Mr. Md. Nadeem Chowdh
+547,BSCSE,EEE 2124,Electronics Laboratory,I,Wed,,08:30:AM - 11:00:AM,Mr. Kazi Abid Hasan
+548,BSCSE,EEE 2124,Electronics Laboratory,J,Wed,,11:11:AM - 01:40:PM,Imran Hossain
+549,BSCSE,EEE 2124,Electronics Laboratory,K,Wed,,02:00:PM - 04:30:PM,Taki Yashir
+550,BSCSE,EEE 4261,Green Computing,A,Sun,Wed,08:30:AM - 09:50:AM,Md. Motaharul Islam
+551,BSCSE,EEE 4261,Green Computing,B,Sun,Wed,11:11:AM - 12:30:PM,Md. Motaharul Islam
+552,BSCSE,EEE 4261,Green Computing,C,Sat,Tue,12:31:PM - 01:50:PM,Shahriar Mahmud
+553,BSCSE,EEE 4261,Green Computing,D,Sun,Wed,01:51:PM - 03:10:PM,Md. Motaharul Islam
+554,BSCSE,EEE 4261,Green Computing,E,Sat,Tue,01:51:PM - 03:10:PM,Shahriar Mahmud
+555,BSCSE,EEE 4261,Green Computing,F,Sat,Tue,09:51:AM - 11:10:AM,Tasriad Ahmed Tias
+556,BSCSE,EEE 4261,Green Computing,G,Sat,Tue,03:11:PM - 04:30:PM,Sheikh Mohammed Al Ha
+557,BSCSE,EEE 4261,Green Computing,H,Sun,Wed,03:11:PM - 04:30:PM,Sheikh Mohammed Al Ha
+558,BSCSE,EEE 4261,Green Computing,I,Sat,Tue,03:11:PM - 04:30:PM,Tasriad Ahmed Tias
+559,BSCSE,EEE 4261,Green Computing,J,Sun,Wed,09:51:AM - 11:10:AM,Shahriar Mahmud
+560,BSCSE,ENG 1011,English I,AA,Sat,Tue,11:11:AM - 12:30:PM,Nousin Laila Bristi
+561,BSCSE,ENG 1011,English I,AB,Sat,Tue,12:31:PM - 01:50:PM,Chowdhury Omar Sharif
+562,BSCSE,ENG 1011,English I,AC,Sat,Tue,01:51:PM - 03:10:PM,Sajjad Hossain
+563,BSCSE,ENG 1011,English I,AD,Sat,Tue,08:30:AM - 09:50:AM,Mir Md. Fazle Rabbi
+564,BSCSE,ENG 1011,English I,AE,Sat,Tue,09:51:AM - 11:10:AM,Md. Taqi Yasir
+565,BSCSE,ENG 1011,English I,AF,Sat,Tue,11:11:AM - 12:30:PM,Dil  Nusrat
+566,BSCSE,ENG 1011,English I,AI,Sat,Tue,08:30:AM - 09:50:AM,Sadia Islam
+567,BSCSE,ENG 1011,English I,AR,Sun,Wed,01:51:PM - 03:10:PM,Khandoker Makjum Wahi
+568,BSCSE,ENG 1011,English I,AS,Sun,Wed,03:11:PM - 04:30:PM,Sadia Afrin
+569,BSCSE,ENG 1011,English I,AV,Sat,Tue,01:51:PM - 03:10:PM,Zolakha Akter Shifa
+570,BSCSE,ENG 1011,English I,AN,Sun,Wed,08:30:AM - 09:50:AM,TBA
+571,BSCSE,ENG 1011,English I,AO,Sun,Wed,09:51:AM - 11:10:AM,Labib Rashid Inan
+572,BSCSE,ENG 1011,English I,AP,Sun,Wed,11:11:AM - 12:30:PM,Sadia Islam
+573,BSCSE,ENG 1011,English I,AQ,Sun,Wed,12:31:PM - 01:50:PM,Khandoker Makjum Wahi
+574,BSCSE,ENG 1011,English I,AT,Sun,Wed,11:11:AM - 12:30:PM,Nusrath Jahan Borna
+575,BSCSE,ENG 1011,English I,AU,Sun,Wed,12:31:PM - 01:50:PM,Rifa Noor
+576,BSCSE,ENG 1011,English I,AG,Sat,Tue,12:31:PM - 01:50:PM,Muntasir Ahmad
+577,BSCSE,ENG 1011,English I,AH,Sat,Tue,01:51:PM - 03:10:PM,Md. Taqi Yasir
+578,BSCSE,ENG 1011,English I,AJ,Sun,Wed,11:11:AM - 12:30:PM,Zolakha Akter Shifa
+579,BSCSE,ENG 1011,English I,AK,Sun,Wed,12:31:PM - 01:50:PM,Sadia Afrin
+580,BSCSE,ENG 1011,English I,AL,Sun,Wed,01:51:PM - 03:10:PM,Zolakha Akter Shifa
+581,BSCSE,ENG 1011,English I,AM,Sun,Wed,03:11:PM - 04:30:PM,TBA
+582,BSCSE,ENG 1013,English II,AA,Sat,Tue,08:30:AM - 09:50:AM,TBA
+583,BSCSE,ENG 1013,English II,AB,Sat,Tue,09:51:AM - 11:10:AM,Christina Miti Rozario
+584,BSCSE,ENG 1013,English II,AC,Sat,Tue,11:11:AM - 12:30:PM,Nusrath Jahan Borna
+585,BSCSE,ENG 1013,English II,AD,Sun,Wed,12:31:PM - 01:50:PM,TBA
+586,BSCSE,ENG 1013,English II,AE,Sun,Wed,08:30:AM - 09:50:AM,Ismat Zarin
+587,BSCSE,ENG 1013,English II,AF,Sun,Wed,09:51:AM - 11:10:AM,TBA
+588,BSCSE,ENG 1013,English II,AS,Sun,Wed,03:11:PM - 04:30:PM,Muhammad Saiful Islam
+589,BSCSE,ENG 1013,English II,AM,Sun,Wed,09:51:AM - 11:10:AM,Nusrath Jahan Borna
+590,BSCSE,ENG 1013,English II,AN,Sun,Wed,08:30:AM - 09:50:AM,TBA
+591,BSCSE,ENG 1013,English II,AO,Sun,Wed,09:51:AM - 11:10:AM,TBA
+592,BSCSE,ENG 1013,English II,AP,Sun,Wed,03:11:PM - 04:30:PM,Ahmed Abdullah Bin Faro
+593,BSCSE,ENG 1013,English II,AQ,Sun,Wed,01:51:PM - 03:10:PM,Nusrath Jahan Borna
+594,BSCSE,ENG 1013,English II,AR,Sun,Wed,01:51:PM - 03:10:PM,Umme Habiba
+595,BSCSE,ENG 1013,English II,AG,Sun,Wed,08:30:AM - 09:50:AM,TBA
+596,BSCSE,ENG 1013,English II,AH,Sun,Wed,09:51:AM - 11:10:AM,Ismat Zarin
+597,BSCSE,ENG 1013,English II,AI,Sat,Tue,09:51:AM - 11:10:AM,Mir Md. Fazle Rabbi
+598,BSCSE,ENG 1013,English II,AJ,Sat,Tue,03:11:PM - 04:30:PM,TBA
+599,BSCSE,ENG 1013,English II,AK,Sun,Wed,12:31:PM - 01:50:PM,Kirsten Gudgeon
+600,BSCSE,ENG 1013,English II,AL,Sat,Tue,03:11:PM - 04:30:PM,Ahmed Abdullah Bin Faro
+601,BSCSE,GED 1005,AI Literacy and Prompt Engineering,A,Mon,,08:30:AM - 11:00:AM,Nusaiba Zaman Manifa
+602,BSCSE,GED 1005,AI Literacy and Prompt Engineering,B,Mon,,11:11:AM - 01:40:PM,Syed Abu Ammar Muham
+603,BSCSE,GED 1005,AI Literacy and Prompt Engineering,C,Mon,,02:00:PM - 04:30:PM,Mahmudul Hasan
+604,BSCSE,GED 1005,AI Literacy and Prompt Engineering,D,Mon,,08:30:AM - 11:00:AM,Rafid Nahiyan Farabi
+605,BSCSE,GED 1005,AI Literacy and Prompt Engineering,E,Mon,,11:11:AM - 01:40:PM,Nusaiba Zaman Manifa
+606,BSCSE,GED 1005,AI Literacy and Prompt Engineering,F,Mon,,02:00:PM - 04:30:PM,Syed Abu Ammar Muham
+607,BSCSE,GED 1005,AI Literacy and Prompt Engineering,G,Mon,,11:11:AM - 01:40:PM,Md. Mehedi Hasan
+608,BSCSE,GED 1005,AI Literacy and Prompt Engineering,H,Mon,,02:00:PM - 04:30:PM,Md. Mehedi Hasan
+609,BSCSE,IPE 3401,Industrial and Operational Management,A,Sat,Tue,01:51:PM - 03:10:PM,Kaspia Kabir
+610,BSCSE,IPE 3401,Industrial and Operational Management,B,Sat,Tue,03:11:PM - 04:30:PM,Kaspia Kabir
+611,BSCSE,IPE 3401,Industrial and Operational Management,C,Sun,Wed,01:51:PM - 03:10:PM,Shaila Ahsan
+612,BSCSE,IPE 3401,Industrial and Operational Management,D,Sat,Tue,11:11:AM - 12:30:PM,Shaila Ahsan
+613,BSCSE,IPE 3401,Industrial and Operational Management,E,Sun,Wed,12:31:PM - 01:50:PM,Shaila Ahsan
+614,BSCSE,MATH 1151,Fundamental Calculus,A,Sun,Wed,08:30:AM - 09:50:AM,Mohsina Rahman
+615,BSCSE,MATH 1151,Fundamental Calculus,B,Sun,Wed,09:51:AM - 11:10:AM,Nazia Shifa Mugdha
+616,BSCSE,MATH 1151,Fundamental Calculus,C,Sun,Wed,11:11:AM - 12:30:PM,Mohammad Mahmudul H
+617,BSCSE,MATH 1151,Fundamental Calculus,D,Sun,Wed,12:31:PM - 01:50:PM,Al Amin Hossain
+618,BSCSE,MATH 1151,Fundamental Calculus,E,Sun,Wed,01:51:PM - 03:10:PM,Mohammad Mahmudul H
+619,BSCSE,MATH 1151,Fundamental Calculus,F,Sun,Wed,03:11:PM - 04:30:PM,Myesha
+620,BSCSE,MATH 1151,Fundamental Calculus,T,Sat,Tue,12:31:PM - 01:50:PM,Md. Asadujjaman
+621,BSCSE,MATH 1151,Fundamental Calculus,U,Sat,Tue,03:11:PM - 04:30:PM,Joyonty Ghosh
+622,BSCSE,MATH 1151,Fundamental Calculus,V,Sun,Wed,08:30:AM - 09:50:AM,Joyonty Ghosh
+623,BSCSE,MATH 1151,Fundamental Calculus,W,Sun,Wed,03:11:PM - 04:30:PM,Al Amin Hossain
+624,BSCSE,MATH 1151,Fundamental Calculus,S,Sun,Wed,12:31:PM - 01:50:PM,Myesha
+625,BSCSE,MATH 1151,Fundamental Calculus,M,Sat,Tue,12:31:PM - 01:50:PM,Tanveer Ahmed Khan Fah
+626,BSCSE,MATH 1151,Fundamental Calculus,N,Sat,Tue,01:51:PM - 03:10:PM,Al Amin Hossain
+627,BSCSE,MATH 1151,Fundamental Calculus,O,Sat,Tue,08:30:AM - 09:50:AM,Al Amin Hossain
+628,BSCSE,MATH 1151,Fundamental Calculus,P,Sat,Tue,09:51:AM - 11:10:AM,Jashodhan Saha
+629,BSCSE,MATH 1151,Fundamental Calculus,Q,Sat,Tue,11:11:AM - 12:30:PM,Myesha
+630,BSCSE,MATH 1151,Fundamental Calculus,R,Sat,Tue,12:31:PM - 01:50:PM,Mahtab Uddin
+631,BSCSE,MATH 1151,Fundamental Calculus,G,Sun,Wed,12:31:PM - 01:50:PM,Tanveer Ahmed Khan Fah
+632,BSCSE,MATH 1151,Fundamental Calculus,H,Sun,Wed,01:51:PM - 03:10:PM,Nazia Shifa Mugdha
+633,BSCSE,MATH 1151,Fundamental Calculus,I,Sun,Wed,03:11:PM - 04:30:PM,Md. Asadujjaman
+634,BSCSE,MATH 1151,Fundamental Calculus,J,Sat,Tue,08:30:AM - 09:50:AM,Myesha
+635,BSCSE,MATH 1151,Fundamental Calculus,K,Sat,Tue,09:51:AM - 11:10:AM,Muhaiminul Islam Adnan
+636,BSCSE,MATH 1151,Fundamental Calculus,L,Sat,Tue,11:11:AM - 12:30:PM,Ashek Ahmed
+637,BSCSE,MATH 2183,Calculus and Linear Algebra,A,Sat,Tue,01:51:PM - 03:10:PM,Mohsina Rahman
+638,BSCSE,MATH 2183,Calculus and Linear Algebra,B,Sat,Tue,03:11:PM - 04:30:PM,Mohammad Mahmudul H
+639,BSCSE,MATH 2183,Calculus and Linear Algebra,C,Sat,Tue,11:11:AM - 12:30:PM,Nazmul Hasan
+640,BSCSE,MATH 2183,Calculus and Linear Algebra,D,Sat,Tue,12:31:PM - 01:50:PM,Mohammad Mahmudul H
+641,BSCSE,MATH 2183,Calculus and Linear Algebra,E,Sat,Tue,01:51:PM - 03:10:PM,Md. Asadujjaman
+642,BSCSE,MATH 2183,Calculus and Linear Algebra,F,Sat,Tue,09:51:AM - 11:10:AM,Mohsina Rahman
+643,BSCSE,MATH 2183,Calculus and Linear Algebra,G,Sun,Wed,03:11:PM - 04:30:PM,Alvi Ahmed Sarker
+644,BSCSE,MATH 2183,Calculus and Linear Algebra,H,Sun,Wed,08:30:AM - 09:50:AM,Saidul Islam
+645,BSCSE,MATH 2183,Calculus and Linear Algebra,I,Sun,Wed,09:51:AM - 11:10:AM,Jashodhan Saha
+646,BSCSE,MATH 2183,Calculus and Linear Algebra,J,Sun,Wed,11:11:AM - 12:30:PM,Ashek Ahmed
+647,BSCSE,MATH 2183,Calculus and Linear Algebra,K,Sun,Wed,12:31:PM - 01:50:PM,Alvi Ahmed Sarker
+648,BSCSE,MATH 2183,Calculus and Linear Algebra,L,Sun,Wed,01:51:PM - 03:10:PM,Md. Mehedi Hasan
+649,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,A,Sat,Tue,08:30:AM - 09:50:AM,Nazia Shifa Mugdha
+650,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,B,Sat,Tue,03:11:PM - 04:30:PM,Ashek Ahmed
+651,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,C,Sat,Tue,11:11:AM - 12:30:PM,Muhaiminul Islam Adnan
+652,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,D,Sat,Tue,01:51:PM - 03:10:PM,Nazia Shifa Mugdha
+653,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,E,Sat,Tue,01:51:PM - 03:10:PM,Nazmul Hasan
+654,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,F,Sat,Tue,03:11:PM - 04:30:PM,Tanveer Ahmed Khan Fah
+655,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,G,Sun,Wed,08:30:AM - 09:50:AM,Nazmul Hasan
+656,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,H,Sun,Wed,09:51:AM - 11:10:AM,Muhaiminul Islam Adnan
+657,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,I,Sun,Wed,11:11:AM - 12:30:PM,Muhaiminul Islam Adnan
+658,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,J,Sun,Wed,12:31:PM - 01:50:PM,Jashodhan Saha
+659,BSCSE,MATH 2201,Coordinate Geometry and Vector Analysis,K,Sun,Wed,01:51:PM - 03:10:PM,Nazmul Hasan
+660,BSCSE,MATH 2205,Probability and Statistics,A,Sat,Tue,03:11:PM - 04:30:PM,Rion
+661,BSCSE,MATH 2205,Probability and Statistics,B,Sat,Tue,03:11:PM - 04:30:PM,Nazmul Hasan
+662,BSCSE,MATH 2205,Probability and Statistics,C,Sat,Tue,12:31:PM - 01:50:PM,Jashodhan Saha
+663,BSCSE,MATH 2205,Probability and Statistics,D,Sat,Tue,12:31:PM - 01:50:PM,Sobur
+664,BSCSE,MATH 2205,Probability and Statistics,E,Sat,Tue,01:51:PM - 03:10:PM,Mahtab Uddin
+665,BSCSE,MATH 2205,Probability and Statistics,F,Sat,Tue,03:11:PM - 04:30:PM,Sobur
+666,BSCSE,MATH 2205,Probability and Statistics,N,Sun,Wed,09:51:AM - 11:10:AM,Sumaiya Tarannum
+667,BSCSE,MATH 2205,Probability and Statistics,L,Sat,Tue,12:31:PM - 01:50:PM,Rion
+668,BSCSE,MATH 2205,Probability and Statistics,G,Sun,Wed,01:51:PM - 03:10:PM,Sumaiya Tarannum
+669,BSCSE,MATH 2205,Probability and Statistics,H,Sun,Wed,03:11:PM - 04:30:PM,Rion
+670,BSCSE,MATH 2205,Probability and Statistics,I,Sun,Wed,09:51:AM - 11:10:AM,Rion
+671,BSCSE,MATH 2205,Probability and Statistics,J,Sun,Wed,12:31:PM - 01:50:PM,Md. Mutasim Billah Kouse
+672,BSCSE,MATH 2205,Probability and Statistics,K,Sat,Tue,08:30:AM - 09:50:AM,Sobur
+673,BSCSE,MATH 2205,Probability and Statistics,M,Sun,Wed,11:11:AM - 12:30:PM,Saidul Islam
+674,BSCSE,PHY 2105,Physics,A,Sat,Tue,03:11:PM - 04:30:PM,RaAN
+675,BSCSE,PHY 2105,Physics,B,Sat,Tue,09:51:AM - 11:10:AM,Sagar Dutta
+676,BSCSE,PHY 2105,Physics,C,Sat,Tue,03:11:PM - 04:30:PM,Md. Saiful Islam            MSIs
+677,BSCSE,PHY 2105,Physics,E,Sat,Tue,01:51:PM - 03:10:PM,S.M. Hasibul Hassan Rizve
+678,BSCSE,PHY 2105,Physics,F,Sat,Tue,08:30:AM - 09:50:AM,S.M. Hasibul Hassan Rizve
+679,BSCSE,PHY 2105,Physics,G,Sun,Wed,01:51:PM - 03:10:PM,Taherin
+680,BSCSE,PHY 2105,Physics,N,Sun,Wed,08:30:AM - 09:50:AM,Sagar Dutta
+681,BSCSE,PHY 2105,Physics,O,Sun,Wed,03:11:PM - 04:30:PM,S.M. Hasibul Hassan Rizve
+682,BSCSE,PHY 2105,Physics,P,Sun,Wed,09:51:AM - 11:10:AM,Arafat
+683,BSCSE,PHY 2105,Physics,D,Sat,Tue,12:31:PM - 01:50:PM,Md. Saiful Islam            MSIs
+684,BSCSE,PHY 2105,Physics,H,Sun,Wed,03:11:PM - 04:30:PM,Badhan
+685,BSCSE,PHY 2105,Physics,I,Sun,Wed,09:51:AM - 11:10:AM,Md. Asaduzzaman
+686,BSCSE,PHY 2105,Physics,J,Sun,Wed,11:11:AM - 12:30:PM,Golam Mohammed Bhuiy
+687,BSCSE,PHY 2105,Physics,K,Sun,Wed,12:31:PM - 01:50:PM,Golam Mohammed Bhuiy
+688,BSCSE,PHY 2105,Physics,L,Sat,Tue,09:51:AM - 11:10:AM,Taherin
+689,BSCSE,PHY 2105,Physics,M,Sat,Tue,11:11:AM - 12:30:PM,Badhan
+690,BSCSE,PHY 2106,Physics Laboratory,A,Sat,,08:30:AM - 11:00:AM,Arafat
+691,BSCSE,PHY 2106,Physics Laboratory,B,Sat,,11:11:AM - 01:40:PM,S.M. Hasibul Hassan Rizve
+692,BSCSE,PHY 2106,Physics Laboratory,C,Sat,,02:00:PM - 04:30:PM,Taherin
+693,BSCSE,PHY 2106,Physics Laboratory,D,Sat,,02:00:PM - 04:30:PM,Badhan
+694,BSCSE,PHY 2106,Physics Laboratory,E,Sun,,08:30:AM - 11:00:AM,Md. Asaduzzaman
+695,BSCSE,PHY 2106,Physics Laboratory,F,Sun,,11:11:AM - 01:40:PM,Arafat
+696,BSCSE,PHY 2106,Physics Laboratory,H,Wed,,02:00:PM - 04:30:PM,Md. Asaduzzaman
+697,BSCSE,PHY 2106,Physics Laboratory,I,Sun,,02:00:PM - 04:30:PM,Md. Saiful Islam
+698,BSCSE,PHY 2106,Physics Laboratory,J,Sun,,08:30:AM - 11:00:AM,Taherin
+699,BSCSE,PHY 2106,Physics Laboratory,K,Tue,,08:30:AM - 11:00:AM,Badhan
+700,BSCSE,PHY 2106,Physics Laboratory,G,Wed,,11:11:AM - 01:40:PM,Rahil Afzal Nihal
+701,BSCSE,PMG 4101,Project Management,A,Sat,Tue,08:30:AM - 09:50:AM,Md. Muhyminul Haque
+702,BSCSE,PMG 4101,Project Management,B,Sat,Tue,03:11:PM - 04:30:PM,Syed Samin Sadaf
+703,BSCSE,PMG 4101,Project Management,C,Sat,Tue,11:11:AM - 12:30:PM,Rizvan Jawad Ruhan
+704,BSCSE,PMG 4101,Project Management,D,Sat,Tue,01:51:PM - 03:10:PM,Mr. Syed Tauhid Zuhori
+705,BSCSE,PMG 4101,Project Management,E,Sun,Wed,08:30:AM - 09:50:AM,Rizvan Jawad Ruhan
+706,BSCSE,PMG 4101,Project Management,F,Sun,Wed,09:51:AM - 11:10:AM,Nahin F. Siddiqui
+707,BSCSE,PMG 4101,Project Management,G,Sun,Wed,11:11:AM - 12:30:PM,Nahin F. Siddiqui
+708,BSCSE,PMG 4101,Project Management,H,Sun,Wed,01:51:PM - 03:10:PM,Rizvan Jawad Ruhan
+709,BSCSE,PMG 4101,Project Management,I,Sun,Wed,03:11:PM - 04:30:PM,Syed Samin Sadaf
+710,BSCSE,PMG 4101,Project Management,J,Sun,Wed,12:31:PM - 01:50:PM,Md. Muhyminul Haque
+711,BSCSE,PMG 4101,Project Management,K,Sat,Tue,12:31:PM - 01:50:PM,Syed Samin Sadaf
+712,BSCSE,PMG 4101,Project Management,L,Sat,Tue,03:11:PM - 04:30:PM,Ms. Sumaiya Ahmed Rani
+713,BSCSE,SOC 2101,"Society, Environment and Engineering Eth",A,Sat,Tue,03:11:PM - 04:30:PM,Sadia Zaman
+714,BSCSE,SOC 2101,"Society, Environment and Engineering Eth",B,Sat,Tue,09:51:AM - 11:10:AM,Nazmun Nahar Showmi
+715,BSCSE,SOC 2101,"Society, Environment and Engineering Eth",C,Sat,Tue,11:11:AM - 12:30:PM,Taniah Mahmuda Tinni
+716,BSCSE,SOC 2101,"Society, Environment and Engineering Eth",D,Sat,Tue,12:31:PM - 01:50:PM,TBA
+717,BSCSE,SOC 2101,"Society, Environment and Engineering Eth",E,Sat,Tue,01:51:PM - 03:10:PM,TBA
+718,BSCSE,SOC 2101,"Society, Environment and Engineering Eth",F,Sun,Wed,08:30:AM - 09:50:AM,Taniah Mahmuda Tinni
+719,BSCSE,SOC 2101,"Society, Environment and Engineering Eth",G,Sun,Wed,09:51:AM - 11:10:AM,Nabila Sultana
+720,BSCSE,SOC 2101,"Society, Environment and Engineering Eth",H,Sun,Wed,11:11:AM - 12:30:PM,Rusafa Islam Aurchi
+721,BSCSE,SOC 2101,"Society, Environment and Engineering Eth",I,Sun,Wed,03:11:PM - 04:30:PM,Md. Minhajul Islam
+722,BSCSE,SOC 2101,"Society, Environment and Engineering Eth",J,Sun,Wed,01:51:PM - 03:10:PM,Md. Minhajul Islam
+723,BSCSE,TEC 2499,Technology Entrepreneurship,A,Sat,Tue,09:51:AM - 11:10:AM,Md. Anowarul Abedin
+724,BSDS,BIO 3107,Biology,BA,Sun,Wed,03:11:PM - 04:30:PM,Md. Belal Hussain Ripon
+725,BSDS,BIO 3107,Biology,BB,Sat,Tue,12:31:PM - 01:50:PM,S.M. Rafiqul Islam
+726,BSDS,CSE 2215,Data Structure and Algorithms I,BA,Sat,Tue,09:51:AM - 11:10:AM,Kazi Fahim Tahmid
+727,BSDS,CSE 2215,Data Structure and Algorithms I,BB,Sun,Wed,12:31:PM - 01:50:PM,Kazi Fahim Tahmid
+728,BSDS,CSE 2216,Data Structure and Algorithms I Laborator,BA,Sun,,08:30:AM - 11:00:AM,Kazi Fahim Tahmid
+729,BSDS,CSE 2216,Data Structure and Algorithms I Laborator,BB,Wed,,08:30:AM - 11:00:AM,Kazi Fahim Tahmid
+730,BSDS,CSE 2217,Data Structure and Algorithms II,BA,Sat,Tue,11:11:AM - 12:30:PM,Umama Rahman
+731,BSDS,CSE 2217,Data Structure and Algorithms II,BB,Sun,Wed,08:30:AM - 09:50:AM,Umama Rahman
+732,BSDS,CSE 2218,Data Structure and Algorithms II Laborato,BA,Sun,,02:00:PM - 04:30:PM,Umama Rahman
+733,BSDS,CSE 2218,Data Structure and Algorithms II Laborato,BB,Wed,,02:00:PM - 04:30:PM,Umama Rahman
+734,BSDS,CSE 3521,Database Management Systems,BA,Sun,Wed,03:11:PM - 04:30:PM,Shihab Ahmed
+735,BSDS,CSE 3521,Database Management Systems,BB,Sat,Tue,08:30:AM - 09:50:AM,Shihab Ahmed
+736,BSDS,CSE 3522,Database Management Systems Laborato,BA,Sat,,11:11:AM - 01:40:PM,Didarul Islam Didar
+737,BSDS,CSE 3522,Database Management Systems Laborato,BB,Tue,,11:11:AM - 01:40:PM,Didarul Islam Didar
+738,BSDS,DS 1101,Fundamentals of Data Science,BA,Sat,Tue,11:11:AM - 12:30:PM,Samin Sharaf Somik
+739,BSDS,DS 1101,Fundamentals of Data Science,BB,Sun,Wed,08:30:AM - 09:50:AM,Samin Sharaf Somik
+740,BSDS,DS 1115,Object Oriented Programming for Data Sc,BA,Sat,Tue,08:30:AM - 09:50:AM,Md. Romizul Islam
+741,BSDS,DS 1115,Object Oriented Programming for Data Sc,BB,Sun,Wed,12:31:PM - 01:50:PM,Md. Romizul Islam
+742,BSDS,DS 1115,Object Oriented Programming for Data Sc,BC,Sat,Tue,03:11:PM - 04:30:PM,Rakibul Hasan Rafi
+743,BSDS,DS 1115,Object Oriented Programming for Data Sc,BD,Sun,Wed,11:11:AM - 12:30:PM,Md. Romizul Islam
+744,BSDS,DS 1116,Object Oriented Programming for Data Sc,BA,Sun,,08:30:AM - 11:00:AM,Rakibul Hasan Rafi
+745,BSDS,DS 1116,Object Oriented Programming for Data Sc,BB,Wed,,08:30:AM - 11:00:AM,Mr. Mabsur Fatin Bin H Mr. Ma
+746,BSDS,DS 1116,Object Oriented Programming for Data Sc,BC,Sat,,11:11:AM - 01:40:PM,Md. Romizul Islam
+747,BSDS,DS 1116,Object Oriented Programming for Data Sc,BD,Wed,,11:11:AM - 01:40:PM,Rakibul Hasan Rafi
+748,BSDS,DS 1116,Object Oriented Programming for Data Sc,BE,Tue,,02:00:PM - 04:30:PM,Md. Romizul Islam
+749,BSDS,DS 1501,Programming for Data Science,BA,Sun,Wed,09:51:AM - 11:10:AM,Syed Abu Ammar Muham
+750,BSDS,DS 1501,Programming for Data Science,BB (If Requir,Sat,Tue,12:31:PM - 01:50:PM,
+751,BSDS,DS 1501,Programming for Data Science,BC,Sat,Tue,01:51:PM - 03:10:PM,Siana Rizwan
+752,BSDS,DS 1501,Programming for Data Science,BD,Sun,Wed,11:11:AM - 12:30:PM,Syed Abu Ammar Muham
+753,BSDS,DS 1501,Programming for Data Science,BE,Sat,Tue,08:30:AM - 09:50:AM,Mr. Mabsur Fatin Bin H Mr. Ma
+754,BSDS,DS 1502,Programming for Data Science Laboratory,BA,Sat,,08:30:AM - 11:00:AM,Syed Abu Ammar Muham
+755,BSDS,DS 1502,Programming for Data Science Laboratory,BB,Tue,,08:30:AM - 11:00:AM,Mr. Masnoon Muztahid
+756,BSDS,DS 1502,Programming for Data Science Laboratory,BC,Tue,,11:11:AM - 01:40:PM,Md. Mehedi Hasan
+757,BSDS,DS 1502,Programming for Data Science Laboratory,BD,Wed,,02:00:PM - 04:30:PM,Syed Abu Ammar Muham
+758,BSDS,DS 1502,Programming for Data Science Laboratory,BE,Sun,,02:00:PM - 04:30:PM,Md. Mehedi Hasan
+759,BSDS,DS 2251,Bayesian Statistics,BA,Sun,Wed,11:11:AM - 12:30:PM,Siana Rizwan
+760,BSDS,DS 3101,Advanced Probability and Statistics,BA,Sun,Wed,01:51:PM - 03:10:PM,Md. Zunaid-Ul-Alam
+761,BSDS,DS 3120,Technical Report Writing and Presentation,BA,Sat,,08:30:AM - 11:00:AM,Jannatun Noor Mukta
+762,BSDS,DS 3120,Technical Report Writing and Presentation,BB,Sun,,02:00:PM - 04:30:PM,Al-Sakib Khan Pathan
+763,BSDS,DS 3521,Data Visualization,BA,Sun,Wed,11:11:AM - 12:30:PM,Shihab Ahmed
+764,BSDS,DS 3521,Data Visualization,BB,Sat,Tue,09:51:AM - 11:10:AM,Shihab Ahmed
+765,BSDS,DS 3522,Data Visualization Laboratory,BA,Sun,,08:30:AM - 11:00:AM,Shihab Ahmed
+766,BSDS,DS 3522,Data Visualization Laboratory,BB,Tue,,02:00:PM - 04:30:PM,Shihab Ahmed
+767,BSDS,DS 3881,Regression and Time Series Analysis,BA,Sun,Wed,12:31:PM - 01:50:PM,Siana Rizwan
+768,BSDS,DS 3885,Data Wrangling,BA,Sat,Tue,12:31:PM - 01:50:PM,Hafijul Hoque Chowdhury
+769,BSDS,DS 3885,Data Wrangling,BB,Sun,Wed,09:51:AM - 11:10:AM,Hafijul Hoque Chowdhury
+770,BSDS,DS 4000A,Capstone Project - I,BA,Wed,,02:00:PM - 04:30:PM,Md. Shohrab Hossain
+771,BSDS,DS 4115,Marketing Analytics,BA,Sat,Tue,12:31:PM - 01:50:PM,Mr. Syed Tauhid Zuhori
+772,BSDS,DS 4115,Marketing Analytics,BB,Sun,Wed,03:11:PM - 04:30:PM,Mr. Syed Tauhid Zuhori
+773,BSDS,DS 4123,Human Computer Interaction,BA,Sun,Wed,08:30:AM - 09:50:AM,Md. Sajjad Hossain
+774,BSDS,DS 4211,Deep Learning,BA,Sun,Wed,12:31:PM - 01:50:PM,Asif Abrar
+775,BSDS,DS 4213,Natural Language Processing,BA,Sat,Tue,08:30:AM - 09:50:AM,Muhammad Anwarul Azi
+776,BSDS,DS 4213,Natural Language Processing,BB,Sun,Wed,12:31:PM - 01:50:PM,Muhammad Anwarul Azi
+777,BSDS,DS 4217,Data Privacy and Ethics,BA,Sat,Tue,03:11:PM - 04:30:PM,Al-Sakib Khan Pathan
+778,BSDS,DS 4217,Data Privacy and Ethics,BB,Sun,Wed,09:51:AM - 11:10:AM,Al-Sakib Khan Pathan
+779,BSDS,DS 4229,Data Warehousing,BA,Sat,Tue,03:11:PM - 04:30:PM,Hafijul Hoque Chowdhury
+780,BSDS,DS 4491,Machine Learning Systems Design,BA,Sat,Tue,08:30:AM - 09:50:AM,Asif Abrar
+781,BSDS,DS 4523,Simulation and Modeling,BA,Sat,Tue,03:11:PM - 04:30:PM,Asif Ahmed Utsa
+782,BSDS,DS 4817,Big Data,BA,Sun,Wed,08:30:AM - 09:50:AM,Dewan Md. Farid
+783,BSDS,DS 4817,Big Data,BB,Sun,Wed,11:11:AM - 12:30:PM,Dewan Md. Farid
+784,BSDS,DS 4889,Machine Learning,BA,Sat,Tue,12:31:PM - 01:50:PM,Kazi Fahim Tahmid
+785,BSDS,DS 4891,Data Analytics,BA,Sun,Wed,08:30:AM - 09:50:AM,Md. Mushfiqul Haque Om
+786,BSDS,DS 4891,Data Analytics,BB,Sat,Tue,11:11:AM - 12:30:PM,Md. Mushfiqul Haque Om
+787,BSDS,DS 4892,Data Analytics Laboratory,BA,Tue,,08:30:AM - 11:00:AM,Md. Mushfiqul Haque Om
+788,BSDS,DS 4892,Data Analytics Laboratory,BB,Wed,,02:00:PM - 04:30:PM,Md. Mushfiqul Haque Om
+789,BSDS,MATH 1153,Advanced Calculus,BA,Sun,Wed,11:11:AM - 12:30:PM,Mahtab Uddin
+790,BSDS,MATH 2107,Linear Algebra,BA,Sun,Wed,01:51:PM - 03:10:PM,Ashek Ahmed
+791,BSDS,MATH 2107,Linear Algebra,BB,Sat,Tue,01:51:PM - 03:10:PM,Ashek Ahmed
