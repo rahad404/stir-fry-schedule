@@ -96,7 +96,12 @@ def render() -> None:
    for teachers you truly cannot attend. The per-course lists only show the
    teachers who actually take that course, so nothing irrelevant is offered.
 
-6. **Raise the search effort if you need a proven optimum.** The builder tells
+6. **Fix a section when you already know it.** A fixed section is placed first
+   and every other course is arranged around it. It overrides the time, day and
+   teacher filters for that one section; two fixed sections that clash stop the
+   routine from being built.
+
+7. **Raise the search effort if you need a proven optimum.** The builder tells
    you when the search finished every possibility, and when it simply ran out
    of budget.
 """
@@ -111,6 +116,8 @@ def render() -> None:
   you picked.
 - **Your filters are respected.** Days, time window, teacher rules, class load
   and campus-day limits are hard constraints, not suggestions.
+- **Fixed sections stay put.** A section you lock is in every routine you get
+  back, even when it would otherwise be filtered out.
 - **Honest about certainty.** When the builder says a routine is optimal it
   has checked every remaining combination; otherwise it says so.
 """

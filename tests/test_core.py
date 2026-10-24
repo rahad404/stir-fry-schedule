@@ -114,6 +114,73 @@ def test_solver_respects_excluded_teachers(data, catalogue):
         assert not {s.faculty for s in routine.assignments} & banned
 
 
+def test_solver_keeps_fixed_sections(data, catalogue):
+    _, sections, _ = data
+    chosen = _pick(catalogue, ["CSE 2213", "ENG 1011", "MATH 1151"])
+    fixed = next(s for s in sections if s.course_key == chosen[0].key)
+    config = FilterConfig(fixed_sections=frozenset({fixed.key}))
+    result = solve(chosen, sections, config, max_routines=6, time_budget=4.0)
+    assert result.routines
+    for routine in result.routines:
+        assert verify_routine(routine) == []
+        picked = {s.course_key: s for s in routine.assignments}
+        assert picked[fixed.course_key].key == fixed.key
+
+
+def test_fixed_section_survives_contradicting_filters(data, catalogue):
+    _, sections, _ = data
+    chosen = _pick(catalogue, ["CSE 2213", "ENG 1011", "MATH 1151"])
+    fixed = next(s for s in sections if s.course_key == chosen[0].key)
+    other_day = next(day for day in DAY_ORDER if day not in fixed.days)
+    config = FilterConfig(
+        allowed_days=(other_day,),
+        fixed_sections=frozenset({fixed.key}),
+    )
+    check = check_feasibility(chosen, sections, config)
+    assert any("Locked section" in warning for warning in check.warnings)
+
+    result = solve(chosen, sections, config, max_routines=3, time_budget=4.0)
+    for routine in result.routines:
+        picked = {s.course_key: s for s in routine.assignments}
+        assert picked[fixed.course_key].key == fixed.key
+
+
+def test_conflicting_fixed_sections_are_reported(data, catalogue):
+    _, sections, _ = data
+    chosen = _pick(catalogue, ["CSE 2213", "ENG 1011", "MATH 1151"])
+    keys = {course.key for course in chosen}
+    by_course = {}
+    for section in sections:
+        if section.course_key in keys:
+            by_course.setdefault(section.course_key, []).append(section)
+
+    conflicting = None
+    options = list(by_course.values())
+    for index, first_options in enumerate(options):
+        for second_options in options[index + 1 :]:
+            clash = next(
+                (
+                    (first, second)
+                    for first in first_options
+                    for second in second_options
+                    if first.mask & second.mask
+                ),
+                None,
+            )
+            if clash:
+                conflicting = clash
+                break
+        if conflicting:
+            break
+
+    assert conflicting is not None
+    first, second = conflicting
+    config = FilterConfig(fixed_sections=frozenset({first.key, second.key}))
+    check = check_feasibility(chosen, sections, config)
+    assert not check.ok
+    assert any("clash" in blocker for blocker in check.blockers)
+
+
 def test_solver_respects_allowed_days(data, catalogue):
     _, sections, _ = data
     chosen = _pick(catalogue, ["CSE 2213", "ENG 1011", "MATH 1151"])

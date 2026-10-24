@@ -29,7 +29,7 @@ from __future__ import annotations
 import math
 import time
 from dataclasses import dataclass, field
-from itertools import pairwise
+from itertools import combinations, pairwise
 
 from .model import (
     DAY_ORDER,
@@ -76,9 +76,15 @@ def build_candidates(
 ) -> tuple[dict[str, tuple[Section, ...]], list[str]]:
     """Sections still in play for every course, plus the courses left empty."""
     by_course: dict[str, list[Section]] = {course.key: [] for course in courses}
+    fixed_by_course: dict[str, set[str]] = {}
     for section in sections:
         bucket = by_course.get(section.course_key)
         if bucket is None:
+            continue
+        if section.key in config.fixed_sections:
+            # A locked section is kept even when it falls outside the filters.
+            fixed_by_course.setdefault(section.course_key, set()).add(section.key)
+            bucket.append(section)
             continue
         if not _section_passes(section, config):
             continue
@@ -90,6 +96,9 @@ def build_candidates(
     result: dict[str, tuple[Section, ...]] = {}
     for course in courses:
         options = by_course.get(course.key, [])
+        fixed = fixed_by_course.get(course.key)
+        if fixed is not None:
+            options = [section for section in options if section.key in fixed]
         if not options:
             empty.append(course.display)
             continue
@@ -129,6 +138,31 @@ def check_feasibility(
             f"No section of '{display}' survives your filters "
             "(time window, allowed days or excluded teachers)."
         )
+
+    course_keys = {course.key for course in courses}
+    fixed = [
+        section
+        for section in sections
+        if section.key in config.fixed_sections and section.course_key in course_keys
+    ]
+    for section in fixed:
+        outside = not _section_passes(section, config) or (
+            section.faculty in config.excluded_for(section.course_key)
+        )
+        if outside:
+            result.warnings.append(
+                f"Locked section {section.label} is outside your time, day or "
+                "teacher filters, but it is kept because you fixed it."
+            )
+    for first, second in combinations(fixed, 2):
+        if first.course_key == second.course_key:
+            continue
+        if first.mask & second.mask:
+            result.ok = False
+            result.blockers.append(
+                f"Locked sections {first.label} and {second.label} clash, so no "
+                "routine can contain both."
+            )
 
     sessions = sum(course.sessions for course in courses)
     result.sessions = sessions
@@ -204,9 +238,11 @@ def check_feasibility(
             "removes most of the room you have left."
         )
 
+    fixed_course_keys = {section.course_key for section in fixed}
     thin = [
         f"{course.display} ({len(options)} section(s) left)"
         for course in courses
+        if course.key not in fixed_course_keys
         for options in [candidates.get(course.key, ())]
         if 0 < len(options) <= 2
     ]

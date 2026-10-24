@@ -108,6 +108,9 @@ class FilterConfig:
     excluded_by_course: tuple[tuple[str, frozenset[str]], ...] = ()
     preferred_by_course: tuple[tuple[str, frozenset[str]], ...] = ()
 
+    # Fixed sections (section keys that every routine must contain)
+    fixed_sections: frozenset[str] = frozenset()
+
     # Workload
     max_classes_per_day: int = 4
     max_days: int = 5

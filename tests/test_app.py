@@ -67,6 +67,40 @@ def test_builder_solves_after_picking_courses():
     assert not at.error
 
 
+def test_builder_builds_around_a_fixed_section():
+    at = _app("app.py")
+    picker = at.multiselect[0]
+    wanted = [
+        option
+        for option in picker.options
+        if option.startswith(("CSE 2213", "ENG 1011", "MATH 1151"))
+    ]
+    picker.set_value(wanted)
+    at.run()
+    _fail(at)
+
+    fixed_box = next(
+        box
+        for box in at.selectbox
+        if box.label == "Fix a section in Discrete Mathematics"
+    )
+    fixed_box.set_value(fixed_box.options[1])
+    at.run()
+    _fail(at)
+
+    locked_value = next(
+        box
+        for box in at.selectbox
+        if box.label == "Fix a section in Discrete Mathematics"
+    ).value
+    locked_section = locked_value.split("|")[2]
+
+    details = at.dataframe[0].value
+    rows = details[details["Course"] == "CSE 2213"]
+    assert set(rows["Section"]) == {locked_section}
+    assert not at.error
+
+
 def test_builder_reports_impossible_requests():
     at = _app("app.py")
     picker = at.multiselect[0]

@@ -88,6 +88,9 @@ returned.
   max hours on campus per day, minimum break between classes.
 * **Teachers** — exclude or prefer teachers globally, or per course. The
   per-course lists only contain the teachers who actually take that course.
+* **Fixed sections** — lock one section of a course and every routine is built
+  around it. This is a hard lock: the section is kept even if it falls outside
+  the time, day or teacher filters, and locked sections that clash are reported.
 * **Goal** — balanced, mornings, afternoons, compact week, or spread out.
 * **Search effort** — quick (1.5 s), standard (4 s) or thorough (12 s). More
   effort means more of the search space is explored, so more requests can be

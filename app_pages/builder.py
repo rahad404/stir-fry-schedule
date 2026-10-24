@@ -176,6 +176,23 @@ def _faculty_by_course(sections) -> dict[str, list[str]]:
     return {key: sorted(names) for key, names in grouped.items()}
 
 
+def _sections_by_course(sections) -> dict[str, list]:
+    """Every section of each course, ordered by start time then section name."""
+    grouped: dict[str, list] = {}
+    for section in sections:
+        grouped.setdefault(section.course_key, []).append(section)
+    for options in grouped.values():
+        options.sort(key=lambda s: (s.start, s.section))
+    return grouped
+
+
+def _section_label(section) -> str:
+    return (
+        f"Section {section.section} · {', '.join(section.days)} · "
+        f"{section.time_label} · {section.faculty}"
+    )
+
+
 def _grid(routine) -> str:
     return grid_html(routine, dark=st.context.theme.type == "dark")
 
@@ -371,6 +388,38 @@ def render() -> None:
                 if names_p:
                     preferred_by_course.append((course.key, frozenset(names_p)))
 
+    # -- Fixed sections ----------------------------------------------------
+    fixed_sections: list[str] = []
+    with st.expander("Fixed sections (optional)"):
+        st.caption(
+            "Lock a specific section and every routine will be built around it. "
+            "A locked section is kept even when it falls outside the time, day "
+            "or teacher filters above."
+        )
+        if not chosen:
+            st.caption("Pick your courses first to choose sections to lock.")
+        else:
+            sections_by_course = _sections_by_course(sections)
+            for course in chosen:
+                options = sections_by_course.get(course.key, [])
+                if not options:
+                    continue
+                lookup = {section.key: section for section in options}
+                widget_key = f"fixed_{course.key}"
+                current = st.session_state.get(widget_key)
+                if current and current not in lookup:
+                    st.session_state[widget_key] = ""
+                choice = st.selectbox(
+                    f"Fix a section in {_course_heading(course, program_count)}",
+                    options=["", *lookup],
+                    format_func=lambda key, lookup=lookup: (
+                        "No fixed section" if not key else _section_label(lookup[key])
+                    ),
+                    key=widget_key,
+                )
+                if choice:
+                    fixed_sections.append(choice)
+
     config = FilterConfig(
         earliest_start=_clock_to_minutes(earliest, FIRST_SLOT),
         latest_end=_clock_to_minutes(latest, LAST_SLOT),
@@ -379,6 +428,7 @@ def render() -> None:
         preferred_faculty=frozenset(global_preferred),
         excluded_by_course=tuple(excluded_by_course),
         preferred_by_course=tuple(preferred_by_course),
+        fixed_sections=frozenset(fixed_sections),
         max_classes_per_day=max_classes,
         max_days=max_days,
         min_days=min_days,
